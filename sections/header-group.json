@@ -28,10 +28,10 @@
         "text_slide_UHRmEN"
       ],
       "settings": {
-        "layout": "slideshow",
+        "layout": "ticker",
         "enable_autoplay": true,
         "autoplay_speed": 5,
-        "text_content": "<p>Theme edited</p>",
+        "text_content": "<p>Theme edited v2</p>",
         "ticker_hide_bullets": true,
         "ticker_text": "<p>New customers save 10% with the code GET10</p><p>NNNNew customers save 10% with the code GET10</p><p>Neeeeew customers save 10% with the code GET10</p>",
         "desktop_movement_speed": 53,
