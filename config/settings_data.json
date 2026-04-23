@@ -25,7 +25,7 @@
       "sticky-atc": {
         "type": "sticky-atc",
         "settings": {
-          "enable_section": true,
+          "enable_section": false,
           "color_scheme": "scheme-5",
           "title_size": "h4",
           "show_img": true,
