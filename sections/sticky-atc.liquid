@@ -12,16 +12,15 @@
             position: fixed;
             bottom: 0;
             left: 0;
-            width: 95%;
+            width: 100%;
             z-index: 2;
-            padding-top: 0.2rem;
-            padding-bottom: 0.2rem;
+            padding-top: {{ section.settings.pt }}rem;
+            padding-bottom: {{ section.settings.pb }}rem;
             visibility: hidden;
             opacity: 0;
             transform: translateY(100%);
             transition: all .15s ease-out;
-            border-top: 1rem solid rgba(var(--color-background),.98);
-            background: orange;
+            border-top: 0.1rem solid rgba(var(--color-foreground),.08);
         }
         #md-sticky-atc.show {
             visibility: visible;
@@ -41,7 +40,6 @@
             display: flex;
             align-items: center;
             padding-bottom: .5rem;
-            justify-content: right;
         }
         @media (min-width: 990px) {
             #md-sticky-atc .product-content {
@@ -230,14 +228,14 @@
                             {% if section.settings.show_quantity_input %}
                                 <quantity-input class="quantity">
                                     <button class="quantity__button no-js-hidden" name="minus" type="button">
-                                        <span class="visually-hidden">{{ 'products.product_card.quantity.decrease' | t: product: product.title | escape }}</span>
+                                        <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
                                         <span class="svg-wrapper">
                           {{- 'icon-minus.svg' | inline_asset_content -}}
                         </span>
                                     </button>
                                     <input class="quantity__input" type="number" name="quantity" id="Quantity-{{ section.id }}" min="1" value="1" form="{{ product_form_id }}">
                                     <button class="quantity__button no-js-hidden" name="plus" type="button">
-                                        <span class="visually-hidden">{{ 'products.product_card.quantity.increase' | t: product: product.title | escape }}</span>
+                                        <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
                                         <span class="svg-wrapper">
                           {{- 'icon-plus.svg' | inline_asset_content -}}
                         </span>
@@ -284,7 +282,7 @@
         {
           "type": "color_scheme",
           "id": "color_scheme",
-          "label": "sections.all.colors.label",
+          "label": "t:sections.all.colors.label",
           "default": "scheme-1"
         },
         {
