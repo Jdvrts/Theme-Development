@@ -21,6 +21,24 @@
     "quick_view_enable_buy_it_now": false,
     "quick_view_show_stock_message": true,
     "show_collection_on_pdp": true,
+    "sections": {
+      "sticky-atc": {
+        "type": "sticky-atc",
+        "settings": {
+          "enable_section": true,
+          "color_scheme": "scheme-5",
+          "title_size": "h4",
+          "show_img": true,
+          "img_width": "84",
+          "img_height": "84",
+          "show_quantity_input": true,
+          "btn_style": "secondary",
+          "offset": 30,
+          "pt": 1,
+          "pb": 1
+        }
+      }
+    },
     "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
