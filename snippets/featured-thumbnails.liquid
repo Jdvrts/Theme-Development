@@ -43,7 +43,7 @@
   <div class="carousel-main">
     {% for image in product.images %}
       <div class="carousel-cell">
-  <img data-lazy="{{ image | image_url:'450px'}}" />
+  <img data-lazy="{{ image }}" />
       </div>
 {% endfor %}
       
@@ -53,7 +53,7 @@
   <div class="carousel-nav">
     {% for image in product.images %}
       <div class="carousel-cell">
-  <img data-lazy="{{ image | image_url:'450x'}}" />
+  <img data-lazy="{{ image }}" />
       </div>
 {% endfor %}
   </div>
