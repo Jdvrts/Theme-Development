@@ -494,15 +494,15 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "product": "",
+        "product": "set-pearlicious-perlen-und-gold",
         "media_layout": "stacked_2_col",
         "thumbnails_position": "bottom",
-        "show_thumbnails_mobile": false,
-        "media_height": "full_size",
+        "show_thumbnails_mobile": true,
+        "media_height": "square",
         "image_object_fit": "cover",
-        "show_taxes_included": true,
-        "show_pay_installments": true,
-        "show_size_guide": true,
+        "show_taxes_included": false,
+        "show_pay_installments": false,
+        "show_size_guide": false,
         "size_guide_button_placement": "under-options",
         "size_guide_page": "",
         "size_guide_button_text": "Size guide",
@@ -566,6 +566,7 @@
         "product_feature_zFPMYe",
         "product_feature_RLDMRj"
       ],
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -593,9 +594,10 @@
       "type": "ticker",
       "settings": {
         "hide_divider": false,
-        "text": "<p>New Spring <em>Collections</em></p>",
-        "desktop_movement_speed": 20,
+        "text": "<p>Vorschau auf die neue Kollektion</p>",
+        "desktop_movement_speed": 34,
         "mobile_movement_speed": 35,
+        "main_image": "shopify://shop_images/statement_kette_lara_gold_model.jpg",
         "text_color": "#ffffff",
         "container_width": "inherit",
         "offset_top_desktop_external": 70,
@@ -606,6 +608,7 @@
     },
     "featured_blog": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -709,6 +712,7 @@
     },
     "image_with_text": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -743,6 +747,7 @@
         "image_GRA6hE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -750,6 +755,7 @@
         "image_AKtAfW": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Halskette_Choker_Perlen_Elisa.png",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -757,6 +763,7 @@
         "image_TU37a6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Halskette_Choker_Perlen_Lotte_model.png",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -764,6 +771,7 @@
         "image_bR4Yrp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Kette_schlange_silber_model.png",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -771,6 +779,7 @@
         "image_iAq4ga": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Kette_stegosaurus_gold_model_1.jpg",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -778,6 +787,7 @@
         "image_87xRz8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Kette_brachiosaurus_silber_model.jpg",
             "image_link": "",
             "open_link_in_new_tab": false
           }
@@ -794,10 +804,10 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "title": "POLLHEIM",
-        "link_label": "@pollheim",
-        "link_url": "/",
-        "animation_movement_speed": 30,
+        "title": "Die schönsten Halsketten",
+        "link_label": "Shop Halsketten",
+        "link_url": "shopify://collections/halsketten",
+        "animation_movement_speed": 41,
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 30,
