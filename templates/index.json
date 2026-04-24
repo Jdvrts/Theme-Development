@@ -61,6 +61,165 @@
         "offset_bottom_mobile": 25
       }
     },
+    "collections_carousel": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_EyxjXW": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessoires",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_gBGUAd": {
+          "type": "collection",
+          "settings": {
+            "collection": "acetate-1",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_kUnJQF": {
+          "type": "collection",
+          "settings": {
+            "collection": "armketten",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_ykmk6p": {
+          "type": "collection",
+          "settings": {
+            "collection": "premade-gift-sets",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_fCeKgF": {
+          "type": "collection",
+          "settings": {
+            "collection": "mixed-metals",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_MNyCAq": {
+          "type": "collection",
+          "settings": {
+            "collection": "ringe",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_ANRNNx": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "custom_title": "",
+            "button_label": "View Collections",
+            "button_style": "primary",
+            "heading_active_color": "#ffffff",
+            "button_color": "#000000",
+            "button_background": "#ffffff",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        },
+        "collection_VfXTWt": {
+          "type": "collection",
+          "settings": {
+            "collection": "perlen",
+            "image": "shopify://shop_images/IMG_0351.jpg",
+            "custom_title": "",
+            "button_label": "View Collection",
+            "button_style": "primary",
+            "heading_active_color": "#000000",
+            "button_color": "#000000",
+            "button_background": "#000000",
+            "button_border_color": "#e9e9e9",
+            "button_color_hover": "#ffffff",
+            "button_background_hover": "#000000",
+            "button_border_color_hover": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "collection_EyxjXW",
+        "collection_gBGUAd",
+        "collection_kUnJQF",
+        "collection_ykmk6p",
+        "collection_fCeKgF",
+        "collection_MNyCAq",
+        "collection_ANRNNx",
+        "collection_VfXTWt"
+      ],
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "",
+        "enable_autoplay": true,
+        "autoplay_speed": 3,
+        "container_width": "inherit",
+        "offset_top_desktop": 0,
+        "offset_bottom_desktop": 0,
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 0,
+        "inner_offset_top": 32,
+        "inner_offset_bottom": 32,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -183,7 +342,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
         "heading": "Your Perfect-Fit Blazer",
-        "collection": "",
+        "collection": "acetate-1",
         "link_label": "See all products",
         "container_width": "inherit",
         "offset_top_desktop": 100,
@@ -284,164 +443,6 @@
         "offset_bottom_desktop": 40,
         "offset_top_mobile": 25,
         "offset_bottom_mobile": 25
-      }
-    },
-    "collections_carousel": {
-      "type": "collections-carousel",
-      "blocks": {
-        "collection_EyxjXW": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_gBGUAd": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_kUnJQF": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_ykmk6p": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_ANRNNx": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_fCeKgF": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_MNyCAq": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_VfXTWt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "collection_EyxjXW",
-        "collection_gBGUAd",
-        "collection_kUnJQF",
-        "collection_ykmk6p",
-        "collection_ANRNNx",
-        "collection_fCeKgF",
-        "collection_MNyCAq",
-        "collection_VfXTWt"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "enable_autoplay": true,
-        "autoplay_speed": 3,
-        "container_width": "100%",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 32,
-        "inner_offset_bottom": 32,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
       }
     },
     "video": {
@@ -942,11 +943,11 @@
   },
   "order": [
     "banner",
+    "collections_carousel",
     "slideshow",
     "featured-collection",
     "featured_products",
     "trends_products",
-    "collections_carousel",
     "video",
     "featured_product",
     "product_features",
