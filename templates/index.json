@@ -11,7 +11,9 @@
   "sections": {
     "banner": {
       "type": "banner",
-      "custom_css": [],
+      "custom_css": [
+        "h1,h3 {-webkit-text-stroke-width: 0.01rem; -webkit-text-stroke-color: blueviolet;}"
+      ],
       "settings": {
         "desktop_image_height": "600px",
         "mobile_image_height": "600px",
