@@ -61,6 +61,25 @@
         "offset_bottom_mobile": 25
       }
     },
+    "collection_list_xe8rKx": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "",
+        "heading": "",
+        "show_products_count": false,
+        "container_width": "inherit",
+        "offset_top_desktop": 0,
+        "offset_bottom_desktop": 40,
+        "offset_top_mobile": 25,
+        "offset_bottom_mobile": 25,
+        "inner_offset_top_desktop": 30,
+        "inner_offset_bottom_desktop": 32,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
+      }
+    },
     "collections_carousel": {
       "type": "collections-carousel",
       "blocks": {
@@ -68,12 +87,12 @@
           "type": "collection",
           "settings": {
             "collection": "accessoires",
-            "custom_title": "",
+            "custom_title": "Custom",
             "button_label": "View Collections",
             "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
+            "heading_active_color": "#000000",
+            "button_color": "#1cd46a",
+            "button_background": "#000000",
             "button_border_color": "#e9e9e9",
             "button_color_hover": "#ffffff",
             "button_background_hover": "#000000",
@@ -943,6 +962,7 @@
   },
   "order": [
     "banner",
+    "collection_list_xe8rKx",
     "collections_carousel",
     "slideshow",
     "featured-collection",
