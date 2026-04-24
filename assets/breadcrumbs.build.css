@@ -28,7 +28,7 @@
   word-break: break-word;
   color: var(--text-color);
   opacity: 0.54;
-  text-decoration: strikethrough;
+  text-decoration: underline;
 }
 .breadcrumb.breadcrumb--banner .breadcrumb__separator {
   color: var(--text-color);
