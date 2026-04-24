@@ -12,8 +12,8 @@
     "product-template": {
       "type": "product-template",
       "blocks": {
-        "title": {
-          "type": "title",
+        "breadcrumbs": {
+          "type": "breadcrumbs",
           "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
@@ -21,9 +21,8 @@
             "offset_bottom_mobile": 8
           }
         },
-        "breadcrumbs": {
-          "type": "breadcrumbs",
-          "disabled": true,
+        "title": {
+          "type": "title",
           "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
@@ -217,8 +216,8 @@
         }
       },
       "block_order": [
-        "title",
         "breadcrumbs",
+        "title",
         "options",
         "quantity",
         "price",
