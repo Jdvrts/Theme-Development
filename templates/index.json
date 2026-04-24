@@ -13,7 +13,7 @@
       "type": "banner",
       "settings": {
         "desktop_image_height": "600px",
-        "mobile_image_height": "350px",
+        "mobile_image_height": "600px",
         "media_type": "image",
         "title": "Strahl jetzt",
         "text": "<h3>für den kommenden Sommer<h3></h3>\n</h3>",
@@ -26,6 +26,7 @@
         "image_desktop": "shopify://shop_images/DSCF5422_1.jpg",
         "show_breadcrumbs": false,
         "enable_timer": false,
+        "timer_year": 0,
         "timer_month": "0",
         "timer_day": "1",
         "timer_hour": "0",
@@ -40,7 +41,7 @@
         "block_alignment_vertical": "center",
         "block_alignment_vertical_mob": "center",
         "section_background": "#e7e7e7",
-        "overlay": "rgba(0,0,0, 0.1)",
+        "overlay": "rgba(90,60,0, 0.3)",
         "text_color": "#ffffff",
         "button_background_1": "#ffffff",
         "button_color_1": "#000000",
@@ -55,14 +56,25 @@
         "button_color_hover_2": "#ffffff",
         "button_border_hover_2": "#ffffff",
         "container_width": "100%",
-        "offset_top_desktop": 80,
+        "offset_top_desktop": 100,
         "offset_bottom_desktop": 25,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 0
       }
     },
     "collection_list_xe8rKx": {
       "type": "collection-list",
+      "blocks": {
+        "collection_yCnzxH": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yCnzxH"
+      ],
       "name": "Collection list",
       "settings": {
         "enable_color_scheme_inheritance": true,
