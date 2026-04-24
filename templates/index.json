@@ -126,163 +126,69 @@
         "inner_offset_bottom_mobile": 32
       }
     },
-    "collections_carousel": {
-      "type": "collections-carousel",
+    "trends_products": {
+      "type": "trend-products",
       "blocks": {
-        "collection_EyxjXW": {
-          "type": "collection",
+        "product_MCChEm": {
+          "type": "product",
           "settings": {
-            "collection": "accessoires",
-            "custom_title": "Custom",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#000000",
-            "button_color": "#1cd46a",
-            "button_background": "#000000",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
+            "product": "ear-cuff-triple-sterling-silber-vergoldet",
+            "horizontal_position_desktop": 21,
+            "vertical_position_desktop": 55,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 29
           }
         },
-        "collection_gBGUAd": {
-          "type": "collection",
+        "product_PrGdKD": {
+          "type": "product",
           "settings": {
-            "collection": "acetate-1",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
+            "product": "set-pearlicious-perlen-und-gold",
+            "horizontal_position_desktop": 46,
+            "vertical_position_desktop": 74,
+            "horizontal_position_mobile": 57,
+            "vertical_position_mobile": 58
           }
         },
-        "collection_kUnJQF": {
-          "type": "collection",
+        "product_6dmKeT": {
+          "type": "product",
           "settings": {
-            "collection": "armketten",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_ykmk6p": {
-          "type": "collection",
-          "settings": {
-            "collection": "premade-gift-sets",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_fCeKgF": {
-          "type": "collection",
-          "settings": {
-            "collection": "mixed-metals",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_MNyCAq": {
-          "type": "collection",
-          "settings": {
-            "collection": "ringe",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_ANRNNx": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals",
-            "custom_title": "",
-            "button_label": "View Collections",
-            "button_style": "primary",
-            "heading_active_color": "#ffffff",
-            "button_color": "#000000",
-            "button_background": "#ffffff",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
-          }
-        },
-        "collection_VfXTWt": {
-          "type": "collection",
-          "settings": {
-            "collection": "perlen",
-            "image": "shopify://shop_images/IMG_0351.jpg",
-            "custom_title": "",
-            "button_label": "View Collection",
-            "button_style": "primary",
-            "heading_active_color": "#000000",
-            "button_color": "#000000",
-            "button_background": "#000000",
-            "button_border_color": "#e9e9e9",
-            "button_color_hover": "#ffffff",
-            "button_background_hover": "#000000",
-            "button_border_color_hover": "#000000"
+            "product": "bicolor-kette-edelstahl-m-lux",
+            "horizontal_position_desktop": 51,
+            "vertical_position_desktop": 86,
+            "horizontal_position_mobile": 72,
+            "vertical_position_mobile": 61
           }
         }
       },
       "block_order": [
-        "collection_EyxjXW",
-        "collection_gBGUAd",
-        "collection_kUnJQF",
-        "collection_ykmk6p",
-        "collection_fCeKgF",
-        "collection_MNyCAq",
-        "collection_ANRNNx",
-        "collection_VfXTWt"
+        "product_MCChEm",
+        "product_PrGdKD",
+        "product_6dmKeT"
       ],
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "enable_autoplay": true,
-        "autoplay_speed": 3,
+        "title": "NEW LOOK",
+        "text": "Discover our new arrivals.",
+        "button_label": "See all",
+        "button_aria-label": "",
+        "button_link": "/",
+        "show_one_open": true,
+        "enable_hotspot_animation": false,
+        "image_desktop": "shopify://shop_images/DSCF5351_1.jpg",
+        "text_color": "#000000",
+        "link_color": "#000000",
+        "spot_background": "#ffffff",
+        "spot_color": "#000000",
+        "spot_border_color": "#ffffff",
+        "spot_background_active": "#000000",
+        "spot_color_active": "#ffffff",
+        "spot_border_color_active": "#393939",
         "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 32,
-        "inner_offset_bottom": 32,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
+        "offset_top_desktop": 40,
+        "offset_bottom_desktop": 40,
+        "offset_top_mobile": 25,
+        "offset_bottom_mobile": 25
       }
     },
     "slideshow": {
@@ -444,111 +350,6 @@
         "inner_offset_bottom": 30,
         "inner_offset_top_mobile": 30,
         "inner_offset_bottom_mobile": 30
-      }
-    },
-    "trends_products": {
-      "type": "trend-products",
-      "blocks": {
-        "product_MCChEm": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position_desktop": 47,
-            "vertical_position_desktop": 55,
-            "horizontal_position_mobile": 57,
-            "vertical_position_mobile": 57
-          }
-        },
-        "product_PrGdKD": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position_desktop": 46,
-            "vertical_position_desktop": 74,
-            "horizontal_position_mobile": 43,
-            "vertical_position_mobile": 74
-          }
-        },
-        "product_6dmKeT": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position_desktop": 51,
-            "vertical_position_desktop": 86,
-            "horizontal_position_mobile": 53,
-            "vertical_position_mobile": 91
-          }
-        }
-      },
-      "block_order": [
-        "product_MCChEm",
-        "product_PrGdKD",
-        "product_6dmKeT"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "title": "NEW LOOK",
-        "text": "Discover our new arrivals.",
-        "button_label": "See all",
-        "button_aria-label": "",
-        "button_link": "/",
-        "show_one_open": true,
-        "enable_hotspot_animation": false,
-        "text_color": "#000000",
-        "link_color": "#000000",
-        "spot_background": "#ffffff",
-        "spot_color": "#000000",
-        "spot_border_color": "#ffffff",
-        "spot_background_active": "#000000",
-        "spot_color_active": "#ffffff",
-        "spot_border_color_active": "#393939",
-        "container_width": "inherit",
-        "offset_top_desktop": 40,
-        "offset_bottom_desktop": 40,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25
-      }
-    },
-    "video": {
-      "type": "video",
-      "blocks": {
-        "ticker_content_jVk8PL": {
-          "type": "ticker_content",
-          "settings": {
-            "block_text": "Ticker text"
-          }
-        },
-        "ticker_content_Mc3hjb": {
-          "type": "ticker_content",
-          "settings": {
-            "block_text": "Ticker text"
-          }
-        },
-        "ticker_content_TWEiBz": {
-          "type": "ticker_content",
-          "settings": {
-            "block_text": "<em>Get free</em> shipping on purchases over $100"
-          }
-        }
-      },
-      "block_order": [
-        "ticker_content_jVk8PL",
-        "ticker_content_Mc3hjb",
-        "ticker_content_TWEiBz"
-      ],
-      "settings": {
-        "video_type": "youtube_vimeo",
-        "external_video_url_desktop": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "external_video_url_mobile": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "movement_speed_desktop": 30,
-        "movement_speed_mobile": 27,
-        "container_width": "inherit",
-        "offset_top_desktop": 32,
-        "offset_bottom_desktop": 32,
-        "offset_top_mobile": 32,
-        "offset_bottom_mobile": 32
       }
     },
     "featured_product": {
@@ -1009,12 +810,10 @@
   "order": [
     "banner",
     "collection_list_xe8rKx",
-    "collections_carousel",
+    "trends_products",
     "slideshow",
     "featured-collection",
     "featured_products",
-    "trends_products",
-    "video",
     "featured_product",
     "product_features",
     "ticker",
