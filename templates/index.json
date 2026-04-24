@@ -68,6 +68,32 @@
     "collection_list_xe8rKx": {
       "type": "collection-list",
       "blocks": {
+        "collection_ceBzne": {
+          "type": "collection",
+          "settings": {
+            "collection": "ringe"
+          }
+        },
+        "collection_JNPaDe": {
+          "type": "collection",
+          "settings": {
+            "collection": "ear-cuffs"
+          }
+        },
+        "collection_yekxQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "mixed-metals",
+            "image": "shopify://shop_images/ArmketteGold-FW340G0.jpg"
+          }
+        },
+        "collection_diHMBL": {
+          "type": "collection",
+          "settings": {
+            "collection": "premade-gift-sets",
+            "image": "shopify://shop_images/Set_Lux_Gold_FL.jpg"
+          }
+        },
         "collection_yCnzxH": {
           "type": "collection",
           "settings": {
@@ -76,8 +102,13 @@
         }
       },
       "block_order": [
+        "collection_ceBzne",
+        "collection_JNPaDe",
+        "collection_yekxQT",
+        "collection_diHMBL",
         "collection_yCnzxH"
       ],
+      "custom_css": [],
       "name": "Collection list",
       "settings": {
         "enable_color_scheme_inheritance": true,
