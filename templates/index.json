@@ -133,8 +133,8 @@
           "type": "product",
           "settings": {
             "product": "ear-cuff-triple-sterling-silber-vergoldet",
-            "horizontal_position_desktop": 21,
-            "vertical_position_desktop": 55,
+            "horizontal_position_desktop": 58,
+            "vertical_position_desktop": 10,
             "horizontal_position_mobile": 46,
             "vertical_position_mobile": 29
           }
@@ -166,7 +166,7 @@
         "product_6dmKeT"
       ],
       "custom_css": [
-        ".image{align-self: flex-start}"
+        ".image {align-self: flex-start;}"
       ],
       "settings": {
         "enable_color_scheme_inheritance": true,
@@ -179,7 +179,7 @@
         "show_one_open": true,
         "enable_hotspot_animation": false,
         "image_desktop": "shopify://shop_images/DSCF5351_1.jpg",
-        "text_color": "#000000",
+        "text_color": "#faf4f4",
         "link_color": "#000000",
         "spot_background": "rgba(0,0,0,0.1)",
         "spot_color": "#fd1b1b",
