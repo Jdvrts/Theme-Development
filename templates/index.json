@@ -15,7 +15,7 @@
         "h1,h3 {-webkit-text-stroke-width: 0.01rem; -webkit-text-stroke-color: blueviolet;}"
       ],
       "settings": {
-        "desktop_image_height": "600px",
+        "desktop_image_height": "700px",
         "mobile_image_height": "600px",
         "media_type": "image",
         "title": "Strahl jetzt",
@@ -59,7 +59,7 @@
         "button_color_hover_2": "#ffffff",
         "button_border_hover_2": "#ffffff",
         "container_width": "100%",
-        "offset_top_desktop": 100,
+        "offset_top_desktop": 0,
         "offset_bottom_desktop": 25,
         "offset_top_mobile": 0,
         "offset_bottom_mobile": 0
