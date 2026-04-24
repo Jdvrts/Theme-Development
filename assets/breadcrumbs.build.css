@@ -19,6 +19,7 @@
   color: var(--text-color);
   white-space: unset;
   word-break: break-word;
+  text-decoration: underline;
 }
 .breadcrumb.breadcrumb--banner .breadcrumb__link:focus-visible {
   outline-color: var(--text-color);
