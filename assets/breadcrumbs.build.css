@@ -28,7 +28,6 @@
   word-break: break-word;
   color: var(--text-color);
   opacity: 0.54;
-  text-decoration: underline;
 }
 .breadcrumb.breadcrumb--banner .breadcrumb__separator {
   color: var(--text-color);
@@ -50,6 +49,7 @@
 .breadcrumb .breadcrumb__item {
   white-space: nowrap;
   color: var(--color-text-thirdly);
+  text-decoration: underline;
 }
 .breadcrumb .breadcrumb__separator {
   font-size: var(--body-font-size);
