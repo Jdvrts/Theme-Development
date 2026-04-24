@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "banner",
+      "custom_css": [],
       "settings": {
         "desktop_image_height": "600px",
         "mobile_image_height": "600px",

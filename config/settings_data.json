@@ -21,6 +21,7 @@
     "is_show_unit_price": true,
     "quick_view_enable_buy_it_now": false,
     "quick_view_show_stock_message": true,
+    "show_breadcrumbs": false,
     "show_collection_on_pdp": true,
     "sections": {
       "sticky-atc": {
