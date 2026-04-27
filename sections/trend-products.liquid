@@ -251,7 +251,7 @@
 				</div>
 			{%- endfor -%}
 		{%- endif -%}
-
+{% comment  %}
 		{%- if button_link != blank and button_label != blank -%}
 			<div class="trend-products__link-wrapper need-animate">
 				<a href="{{ button_link }}" class="trend-products__link button-link focus-visible-outline"
@@ -265,6 +265,7 @@
 				</a>
 			</div>
 		{%- endif -%}
+{% endcomment %}		 
 	</div>
 
 	{%- render 'adastra' with '/src/scripts/section-trend-products.js' -%}
