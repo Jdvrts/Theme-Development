@@ -16,7 +16,7 @@
     "button_font_family": "playfair_display_n4",
     "button_font_size": 110,
     "button_font_uppercase": true,
-    "favicon": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
+    "favicon": "shopify://shop_images/site-icon-small-v2.png",
     "show_additional_checkout_buttons": true,
     "is_show_unit_price": true,
     "quick_view_enable_buy_it_now": false,
