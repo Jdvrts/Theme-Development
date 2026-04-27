@@ -228,7 +228,7 @@
           "type": "image",
           "settings": {
             "image_desktop": "shopify://shop_images/DSCF5429.jpg",
-            "heading": "Spring Collection",
+            "heading": "Spring Gleam",
             "heading_size": 80,
             "description": "<p>Discover our new Jackets & Trousers sets</p>",
             "button_text": "SHOP NOW",
@@ -254,12 +254,13 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "heading": "Discover Your New Attire",
+            "image_desktop": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
+            "heading": "Halsettlen",
             "heading_size": 80,
-            "description": "",
-            "button_text": "SHOP ALL",
+            "description": "<p>Text under</p>",
+            "button_text": "Shop",
             "button_aria_label": "",
-            "button_link": "/",
+            "button_link": "shopify://collections/halsketten",
             "open_in_new_tab": false,
             "make_link_full_slide": false,
             "text_alignment_inside_block": "start",
