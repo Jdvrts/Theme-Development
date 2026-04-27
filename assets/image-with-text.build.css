@@ -115,7 +115,7 @@
   line-height: 1.66;
   word-break: break-word;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .image-with-text {
     padding-top: var(--inner-offset-top);
     padding-bottom: var(--inner-offset-bottom);

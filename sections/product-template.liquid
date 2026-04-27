@@ -62,8 +62,8 @@
 	data-url="{{- product.url -}}"
 >
 	<div class="product__container container">
-		{%- include 'product-media', media_height: section.settings.media_height, enable_video_play_on_autoplay: section.settings.enable_video_play_on_autoplay -%}
-		{%- include 'product-form', blocks: blocks, enable_history_state: true, product_template: true -%}
+		{%- render 'product-media', media_height: section.settings.media_height, enable_video_play_on_autoplay: section.settings.enable_video_play_on_autoplay -%}
+		{%- render 'product-form', blocks: blocks, enable_history_state: true, product_template: true -%}
 		{%- render 'product-drawers-content', product: product, section: section, blocks: blocks -%}
 	</div>
 

@@ -49,6 +49,7 @@
 .breadcrumb .breadcrumb__item {
   white-space: nowrap;
   color: var(--color-text-thirdly);
+  text-decoration: underline;
 }
 .breadcrumb .breadcrumb__separator {
   font-size: var(--body-font-size);
