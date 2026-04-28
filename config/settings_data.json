@@ -17,12 +17,16 @@
     "button_font_size": 110,
     "button_font_uppercase": true,
     "favicon": "shopify://shop_images/site-icon-small-v2.png",
+    "show_tax_and_shipping": false,
     "show_additional_checkout_buttons": true,
     "is_show_unit_price": true,
     "quick_view_enable_buy_it_now": false,
     "quick_view_show_stock_message": true,
+    "cart_reminder_enable": true,
+    "cart_reminder_cookie_time": "30",
+    "cart_reminder_display_frequency": "one_time",
     "show_breadcrumbs": false,
-    "show_collection_on_pdp": true,
+    "show_collection_on_pdp": false,
     "sections": {
       "sticky-atc": {
         "type": "sticky-atc",

@@ -12,16 +12,6 @@
     "product-template": {
       "type": "product-template",
       "blocks": {
-        "breadcrumbs": {
-          "type": "breadcrumbs",
-          "disabled": true,
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "back_in_stock_alert_tytKbt": {
           "type": "back_in_stock_alert",
           "settings": {
@@ -119,7 +109,6 @@
         }
       },
       "block_order": [
-        "breadcrumbs",
         "back_in_stock_alert_tytKbt",
         "title",
         "price",
