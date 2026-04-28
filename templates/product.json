@@ -45,10 +45,28 @@
             "offset_bottom_mobile": 8
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+            "offset_top_desktop": 8,
+            "offset_bottom_desktop": 8,
+            "offset_top_mobile": 8,
+            "offset_bottom_mobile": 8
+          }
+        },
         "options": {
           "type": "options",
           "settings": {
             "variant_picker": "select",
+            "offset_top_desktop": 8,
+            "offset_bottom_desktop": 8,
+            "offset_top_mobile": 8,
+            "offset_bottom_mobile": 8
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -64,24 +82,6 @@
             "show_gift_card_recipient": false,
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 25,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "quantity": {
-          "type": "quantity",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
             "offset_bottom_mobile": 8
           }
@@ -122,10 +122,10 @@
         "breadcrumbs",
         "back_in_stock_alert_tytKbt",
         "title",
-        "options",
-        "add_to_cart",
         "price",
+        "options",
         "quantity",
+        "add_to_cart",
         "drawers",
         "complementary"
       ],
@@ -260,8 +260,9 @@
         "hotspot_active_color": "#ffffff",
         "hotspot_active_border_color": "#ffffff",
         "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
-        "heading": "Pollheim features",
-        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. Et lacinia magna curabitur varius lectus nostra tortor, habitasse aliquet eget massa nunc enim iaculis, est scelerisque ad ante mattis lobortis. Facilisis turpis a fermentum nisi at habitant id rutrum egestas purus, vel vehicula magnis bibendum tincidunt morbi justo auctor imperdiet. Pretium senectus primis nam duis, per dapibus.<br/><br/></p>",
+        "heading": "Heres headingfor section",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. <br/><br/></p>",
+        "image": "shopify://shop_images/1f04e16d-596f-48b7-bb94-c6711724a953.png",
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,
