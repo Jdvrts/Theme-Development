@@ -11,6 +11,42 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "177738537248fb0489": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_1fc1383_qEWBE6": {
+          "type": "ai_gen_block_1fc1383",
+          "settings": {
+            "show_menu_button": true,
+            "menu_label": "Menu",
+            "show_search_button": true,
+            "search_label": "Search",
+            "show_labels": true,
+            "background_color": "#ffffff",
+            "icon_color": "#002070",
+            "icon_hover_color": "#05378f",
+            "button_hover_background": "#f4f4f5",
+            "border_color": "#262250",
+            "border_width": 1,
+            "shadow_opacity": 0.1,
+            "padding_vertical": 12,
+            "padding_horizontal": 20,
+            "button_gap": 20,
+            "button_padding": 8,
+            "button_border_radius": 8,
+            "icon_size": 24,
+            "icon_label_gap": 4,
+            "label_font_size": 12,
+            "label_font_weight": "500"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_1fc1383_qEWBE6"
+      ],
+      "settings": {}
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -70,6 +106,7 @@
     }
   },
   "order": [
+    "177738537248fb0489",
     "footer"
   ]
 }
