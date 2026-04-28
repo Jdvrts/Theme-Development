@@ -14,7 +14,22 @@
       "blocks": {
         "breadcrumbs": {
           "type": "breadcrumbs",
+          "disabled": true,
           "settings": {
+            "offset_top_desktop": 8,
+            "offset_bottom_desktop": 8,
+            "offset_top_mobile": 8,
+            "offset_bottom_mobile": 8
+          }
+        },
+        "back_in_stock_alert_tytKbt": {
+          "type": "back_in_stock_alert",
+          "settings": {
+            "back_in_stock_alert_button_label": "Email me when available",
+            "back_in_stock_alert_form_heading": "Notified by email when this product becomes available",
+            "back_in_stock_alert_form_email_placeholder": "Your email",
+            "back_in_stock_alert_form_submit_button_label": "Notify me when available",
+            "back_in_stock_alert_form_success_message": "Email has been successfully set",
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -33,7 +48,29 @@
         "options": {
           "type": "options",
           "settings": {
-            "variant_picker": "radio",
+            "variant_picker": "select",
+            "offset_top_desktop": 8,
+            "offset_bottom_desktop": 8,
+            "offset_top_mobile": 8,
+            "offset_bottom_mobile": 8
+          }
+        },
+        "add_to_cart": {
+          "type": "add_to_cart",
+          "settings": {
+            "button_type": "secondary",
+            "button_buy_it_type": "primary",
+            "show_additional_buttons": false,
+            "show_gift_card_recipient": false,
+            "offset_top_desktop": 8,
+            "offset_bottom_desktop": 25,
+            "offset_top_mobile": 8,
+            "offset_bottom_mobile": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -49,99 +86,10 @@
             "offset_bottom_mobile": 8
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "add_to_cart": {
-          "type": "add_to_cart",
-          "settings": {
-            "button_type": "secondary",
-            "button_buy_it_type": "primary",
-            "show_additional_buttons": false,
-            "show_gift_card_recipient": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 25,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "vendor": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-            "make_vendor_link": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "sku": {
-          "type": "sku",
-          "disabled": true,
-          "settings": {
-            "sku_text": "SKU: {SKU}",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "disabled": true,
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "back_in_stock_alert_tytKbt": {
-          "type": "back_in_stock_alert",
-          "disabled": true,
-          "settings": {
-            "back_in_stock_alert_button_label": "Email me when available",
-            "back_in_stock_alert_form_heading": "Notified by email when this product becomes available",
-            "back_in_stock_alert_form_email_placeholder": "Your email",
-            "back_in_stock_alert_form_submit_button_label": "Notify me when available",
-            "back_in_stock_alert_form_success_message": "Email has been successfully sent",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "disabled": true,
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "drawers": {
           "type": "drawers",
-          "disabled": true,
           "settings": {
-            "show_description": false,
+            "show_description": true,
             "description_toggle_text": "Description",
             "description_drawer_title": "Description",
             "drawer_page_1": "",
@@ -217,17 +165,12 @@
       },
       "block_order": [
         "breadcrumbs",
+        "back_in_stock_alert_tytKbt",
         "title",
         "options",
-        "quantity",
-        "price",
         "add_to_cart",
-        "vendor",
-        "sku",
-        "description",
-        "inventory_status",
-        "back_in_stock_alert_tytKbt",
-        "pickup_availability",
+        "price",
+        "quantity",
         "drawers",
         "sales_point_cDLqCC",
         "sales_point_zx6rLq",
@@ -242,13 +185,13 @@
         "is_zoom_enabled": true,
         "media_layout": "stacked_2_col",
         "thumbnails_position": "bottom",
-        "show_thumbnails_mobile": false,
-        "media_height": "full_size",
+        "show_thumbnails_mobile": true,
+        "media_height": "square",
         "image_object_fit": "cover",
         "show_taxes_included": true,
         "show_pay_installments": true,
         "show_sticky_add_to_cart": false,
-        "show_size_guide": true,
+        "show_size_guide": false,
         "size_guide_button_placement": "under-options",
         "size_guide_page": "",
         "size_guide_button_text": "Size guide",
@@ -260,8 +203,8 @@
         "offset_bottom_mobile": 0,
         "inner_offset_top": 64,
         "inner_offset_bottom": 0,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 24
+        "inner_offset_top_mobile": 0,
+        "inner_offset_bottom_mobile": 0
       }
     },
     "richtext": {
