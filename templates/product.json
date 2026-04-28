@@ -107,51 +107,6 @@
             "offset_bottom_mobile": 8
           }
         },
-        "sales_point_cDLqCC": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "sales_point_text": "PICKUP AVAILABLE AT THIRD LOCATION STOREUSUALLY READY IN 2-4 DAYS",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "sales_point_zx6rLq": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "sales_point_text": "BECOME CLUB MEMBER AND GET SPECIAL OFFERS",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "sales_point_qQppAg": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "sales_point_text": "FREE SHIPPING OVER $100",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "socials": {
-          "type": "socials",
-          "settings": {
-            "show_facebook": true,
-            "show_twitter": true,
-            "show_pinterest": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "complementary": {
           "type": "complementary",
           "settings": {
@@ -172,10 +127,6 @@
         "price",
         "quantity",
         "drawers",
-        "sales_point_cDLqCC",
-        "sales_point_zx6rLq",
-        "sales_point_qQppAg",
-        "socials",
         "complementary"
       ],
       "settings": {
