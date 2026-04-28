@@ -48,7 +48,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "header_type": "sticky_hide",
+        "header_type": "static",
         "enable_transparent_header_homepage": true,
         "enable_transparent_header_collection": true,
         "enable_transparent_header_mobile": false,
