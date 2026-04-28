@@ -221,8 +221,8 @@
         "product_feature_DKMakk": {
           "type": "product_feature",
           "settings": {
-            "heading": "Features",
-            "description": "Introducing our signature MatchlessMerino, made of Merino wool, this crewneck is thinner, softer and finer than regular wool, allowing breathability, comfort and warmth all in one. Dismissing the classic rough and itchy characteristics of wool, premium Merino wool offers an undeniable luxe feeling and classic look, with all-season versatility.",
+            "heading": "Heading prod f v1",
+            "description": "description of feature v1 Lorem ipsum dolor sit amet, consectetur adipiscing.",
             "hotspot_vertical_position": 51,
             "hotspot_horizontal_position": 51,
             "feature_icon_1": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
@@ -235,8 +235,8 @@
         "product_feature_N8e3my": {
           "type": "product_feature",
           "settings": {
-            "heading": "Benefits",
-            "description": "Introducing our signature MatchlessMerino",
+            "heading": "Heading prod ft v2",
+            "description": "description of feature v2 Lorem ipsum dolor sit amet, consectetur adipiscing.",
             "hotspot_vertical_position": 65,
             "hotspot_horizontal_position": 68,
             "feature_text_1": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
@@ -261,7 +261,7 @@
         "hotspot_active_border_color": "#ffffff",
         "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
         "heading": "Pollheim features",
-        "description": "<p>Introducing our signature MatchlessMerino, made of Merino wool, this crewneck is thinner, softer and finer than regular wool, allowing breathability, comfort and warmth all in one. Dismissing the classic rough and itchy characteristics of wool, premium Merino wool offers an undeniable luxe feeling and classic look, with all-season versatility.</p>",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. Et lacinia magna curabitur varius lectus nostra tortor, habitasse aliquet eget massa nunc enim iaculis, est scelerisque ad ante mattis lobortis. Facilisis turpis a fermentum nisi at habitant id rutrum egestas purus, vel vehicula magnis bibendum tincidunt morbi justo auctor imperdiet. Pretium senectus primis nam duis, per dapibus.<br/><br/></p>",
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,
