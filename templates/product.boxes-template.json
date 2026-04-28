@@ -218,19 +218,6 @@
     "product_features": {
       "type": "product-features",
       "blocks": {
-        "product_feature_Hdc4LM": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Feature heading",
-            "description": "Feature description",
-            "hotspot_vertical_position": 35,
-            "hotspot_horizontal_position": 30,
-            "feature_text_1": "Feature text 1",
-            "feature_text_2": "Feature text 2",
-            "feature_text_3": "Feature text 3",
-            "feature_text_4": "Feature text 4"
-          }
-        },
         "product_feature_WtyyKY": {
           "type": "product_feature",
           "settings": {
@@ -273,7 +260,6 @@
         }
       },
       "block_order": [
-        "product_feature_Hdc4LM",
         "product_feature_WtyyKY",
         "product_feature_DKMakk",
         "product_feature_N8e3my"
@@ -290,7 +276,6 @@
         "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
         "heading": "Heres headingfor section",
         "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. <br/><br/></p>",
-        "image": "shopify://shop_images/1f04e16d-596f-48b7-bb94-c6711724a953.png",
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,
