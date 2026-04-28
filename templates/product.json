@@ -160,6 +160,7 @@
     },
     "richtext": {
       "type": "richtext",
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -185,6 +186,7 @@
     },
     "image_with_text": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-1",
