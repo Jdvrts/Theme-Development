@@ -16,7 +16,7 @@
     width: 100%;
     background-color: {{ block.settings.background_color }};
     border-top: 1px solid {{ block.settings.border_color }};
-    z-index: 3;
+    z-index: 10;
     padding: {{ block.settings.padding }}px 0;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   }
@@ -61,7 +61,7 @@
 
   .ai-mobile-nav-label-{{ ai_gen_id }} {
     font-size: {{ block.settings.label_size }}px;
-    font-weight: 500;
+    font-weight: 400;
   }
 {% endstyle %}
 
