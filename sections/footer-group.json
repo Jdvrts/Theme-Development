@@ -32,7 +32,7 @@
           "blocks": {}
         },
         "ai_gen_block_1fc1383_tmeja3": {
-          "type": "ai_gen_block_1fc1383",
+          "type": "Old-mobile-footer-menu",
           "disabled": true,
           "settings": {
             "show_menu_button": true,
