@@ -251,7 +251,6 @@
         "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
         "heading": "Heres headingfor section",
         "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. <br/><br/></p>",
-        "image": "shopify://shop_images/1f04e16d-596f-48b7-bb94-c6711724a953.png",
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,
@@ -302,6 +301,78 @@
         "inner_offset_top_mobile": 30,
         "inner_offset_bottom_mobile": 30
       }
+    },
+    "17775634770ba24d73": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0eed358_CKGRwp": {
+          "type": "ai_gen_block_0eed358",
+          "settings": {
+            "scroll_threshold": 300,
+            "button_text": "Add to cart",
+            "button_text_adding": "Adding...",
+            "button_text_added": "Added!",
+            "error_message": "Could not add to cart. Please try again.",
+            "enable_color_scheme_inheritance": true,
+            "background_color": "#000000",
+            "text_color": "#000000",
+            "border_color": "#e0e0e0",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_background_hover_color": "#333333",
+            "button_text_hover_color": "#ffffff",
+            "container_max_width": 1400,
+            "gap": 20,
+            "gap_mobile": 10,
+            "product_info_gap": 15,
+            "product_info_gap_mobile": 10,
+            "actions_gap": 15,
+            "actions_gap_mobile": 10,
+            "padding_top": 15,
+            "padding_bottom": 15,
+            "padding_horizontal": 20,
+            "padding_top_mobile": 10,
+            "padding_bottom_mobile": 10,
+            "padding_horizontal_mobile": 15,
+            "border_width": 1,
+            "image_size": 60,
+            "image_size_mobile": 50,
+            "image_border_radius": 4,
+            "title_font_size": 16,
+            "title_font_size_mobile": 14,
+            "title_font_weight": "600",
+            "title_margin_bottom": 4,
+            "title_margin_bottom_mobile": 2,
+            "price_font_size": 16,
+            "price_font_size_mobile": 14,
+            "price_font_weight": "500",
+            "quantity_button_size": 40,
+            "quantity_button_size_mobile": 35,
+            "quantity_input_width": 50,
+            "quantity_input_width_mobile": 40,
+            "quantity_button_font_size": 18,
+            "quantity_button_font_size_mobile": 16,
+            "quantity_input_font_size": 14,
+            "quantity_input_font_size_mobile": 12,
+            "quantity_border_width": 1,
+            "quantity_border_radius": 4,
+            "button_padding_vertical": 12,
+            "button_padding_vertical_mobile": 10,
+            "button_padding_horizontal": 25,
+            "button_padding_horizontal_mobile": 20,
+            "button_font_size": 14,
+            "button_font_size_mobile": 13,
+            "button_font_weight": "600",
+            "button_border_width": 1,
+            "button_border_radius": 4
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0eed358_CKGRwp"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -310,6 +381,7 @@
     "image_with_text",
     "product_features",
     "product-recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "17775634770ba24d73"
   ]
 }
