@@ -321,7 +321,7 @@
             "button_text_color": "#ffffff",
             "button_background_hover_color": "#333333",
             "button_text_hover_color": "#ffffff",
-            "container_max_width": 1400,
+            "container_max_width": 1000,
             "gap": 20,
             "gap_mobile": 10,
             "product_info_gap": 15,
