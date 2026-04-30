@@ -65,7 +65,7 @@
         "make_first_lvl_clickable": false,
         "burger_menu": "main-menu",
         "hide_burger_menu_on_mobile": true,
-        "additional_menu": "mobile-footer-menu",
+        "additional_menu": "",
         "show_socials": true,
         "scroll_images_direction": "top",
         "phone_number": "",
