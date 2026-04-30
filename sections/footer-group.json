@@ -14,8 +14,26 @@
     "blocks_QWGNFd": {
       "type": "_blocks",
       "blocks": {
+        "ai_gen_block_9d413de_wGC8cc": {
+          "type": "ai_gen_block_9d413de",
+          "settings": {
+            "menu": "footer",
+            "menu_label": "Menu",
+            "search_label": "Search",
+            "show_labels": true,
+            "icon_size": 24,
+            "label_size": 12,
+            "padding": 12,
+            "background_color": "#ffffff",
+            "border_color": "#e0e0e0",
+            "icon_color": "#000000",
+            "icon_hover_color": "#666666"
+          },
+          "blocks": {}
+        },
         "ai_gen_block_1fc1383_tmeja3": {
           "type": "ai_gen_block_1fc1383",
+          "disabled": true,
           "settings": {
             "show_menu_button": true,
             "menu_label": "Menu",
@@ -43,6 +61,7 @@
         }
       },
       "block_order": [
+        "ai_gen_block_9d413de_wGC8cc",
         "ai_gen_block_1fc1383_tmeja3"
       ],
       "name": "Mobile bottom nav",
