@@ -126,27 +126,36 @@
       }
 
       openMenu() {
-        const menuToggle = document.querySelector('.header__icon--menu');
-        const mobileMenuToggle = document.querySelector('[data-mobile-menu-toggle]');
-        const menuDrawerToggle = document.querySelector('menu-drawer');
-        
-        if (menuToggle) {
-          menuToggle.click();
-        } else if (mobileMenuToggle) {
-          mobileMenuToggle.click();
-        } else if (menuDrawerToggle) {
-          const summaryElement = menuDrawerToggle.querySelector('summary');
+        const headerMenuButton = document.querySelector('header-drawer .header__icon--menu');
+        if (headerMenuButton) {
+          headerMenuButton.click();
+          return;
+        }
+
+        const menuDrawerButton = document.querySelector('.header__icon--menu');
+        if (menuDrawerButton) {
+          menuDrawerButton.click();
+          return;
+        }
+
+        const menuDrawer = document.querySelector('menu-drawer');
+        if (menuDrawer) {
+          const summaryElement = menuDrawer.querySelector('summary');
           if (summaryElement) {
             summaryElement.click();
           }
-        } else {
-          const detailsMenu = document.querySelector('details[data-menu-drawer]');
-          if (detailsMenu) {
-            const summary = detailsMenu.querySelector('summary');
-            if (summary) {
-              summary.click();
-            }
-          }
+          return;
+        }
+
+        const detailsMenu = document.querySelector('details[id*="Details-menu"]');
+        if (detailsMenu) {
+          detailsMenu.open = true;
+          return;
+        }
+
+        const mobileMenuToggle = document.querySelector('[aria-controls*="menu"]');
+        if (mobileMenuToggle) {
+          mobileMenuToggle.click();
         }
       }
 
