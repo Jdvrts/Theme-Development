@@ -1067,7 +1067,7 @@ label {
   z-index: -1;
   width: 100%;
   height: 100%;
-  transition-property: opacity;
+  transition-property: right;
   transition-duration: var(--timing-base);
 }
 .button.button--primary {
