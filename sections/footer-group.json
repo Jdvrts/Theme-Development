@@ -17,7 +17,7 @@
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
           "settings": {
-            "menu": "footer",
+            "menu": "mobile-footer-menu",
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
@@ -30,39 +30,10 @@
             "icon_hover_color": "#666666"
           },
           "blocks": {}
-        },
-        "ai_gen_block_1fc1383_tmeja3": {
-          "type": "Old-mobile-footer-menu",
-          "disabled": true,
-          "settings": {
-            "show_menu_button": true,
-            "menu_label": "Menu",
-            "show_search_button": true,
-            "search_label": "Search",
-            "show_labels": true,
-            "background_color": "#ffffff",
-            "icon_color": "#002070",
-            "icon_hover_color": "#05378f",
-            "button_hover_background": "#f4f4f5",
-            "border_color": "#262250",
-            "border_width": 0,
-            "shadow_opacity": 0.3,
-            "padding_vertical": 12,
-            "padding_horizontal": 20,
-            "button_gap": 50,
-            "button_padding": 8,
-            "button_border_radius": 8,
-            "icon_size": 24,
-            "icon_label_gap": 4,
-            "label_font_size": 12,
-            "label_font_weight": "500"
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_9d413de_wGC8cc",
-        "ai_gen_block_1fc1383_tmeja3"
+        "ai_gen_block_9d413de_wGC8cc"
       ],
       "name": "Mobile bottom nav",
       "settings": {}
