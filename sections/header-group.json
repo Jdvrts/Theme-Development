@@ -66,7 +66,7 @@
         "burger_menu": "mobile-footer-menu",
         "hide_burger_menu_on_mobile": true,
         "additional_menu": "",
-        "show_socials": true,
+        "show_socials": false,
         "scroll_images_direction": "top",
         "phone_number": "",
         "schedule_information": "",

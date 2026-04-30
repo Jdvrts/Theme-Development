@@ -22,7 +22,7 @@
             "search_label": "Search",
             "show_labels": true,
             "icon_size": 24,
-            "label_size": 12,
+            "label_size": 10,
             "padding": 12,
             "background_color": "#ffffff",
             "border_color": "#e0e0e0",
