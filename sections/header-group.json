@@ -60,7 +60,7 @@
         "logo_width": 75,
         "logo_position": "middle",
         "menu": "main-menu",
-        "mobile_top_menu": "customer-account-main-menu",
+        "mobile_top_menu": "mobile-footer-menu",
         "open_menu_type": "click",
         "make_first_lvl_clickable": false,
         "burger_menu": "main-menu",
