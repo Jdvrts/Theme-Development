@@ -21,7 +21,7 @@
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
-            "icon_size": 24,
+            "icon_size": 20,
             "label_size": 10,
             "padding": 12,
             "background_color": "#ffffff",
