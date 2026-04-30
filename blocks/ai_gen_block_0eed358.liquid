@@ -105,7 +105,7 @@
     gap: {{ block.settings.actions_gap }}px;
     flex-shrink: 0;
   }
-
+{% comment %}
   .ai-sticky-atc-quantity-{{ ai_gen_id }} {
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@
     -webkit-appearance: none;
     margin: 0;
   }
-
+{% endcomment %}
   .ai-sticky-atc-button-{{ ai_gen_id }} {
     padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
     background-color: {{ button_bg }};
