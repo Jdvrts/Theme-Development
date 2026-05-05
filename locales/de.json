@@ -16,8 +16,8 @@
 			"close_modal": "Schließen (esc)",
 			"video_play": "Video abspielen",
 			"video_pause": "Video anhalten",
-			"video_pause": "Video anhalten",
 			"video_mute": "Video ohne Ton",
+			"video_sound": "Sound video",
 			"unit_price_separator": "pro",
 			"link_messages": {
 				"link_to_home_page": "Link zur Home page"
