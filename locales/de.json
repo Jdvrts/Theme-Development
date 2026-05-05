@@ -240,6 +240,7 @@
 		"general": {
 			"empty_collection": "Keine Produkte gefunden",
 			"filter_and_sort": "Filtern",
+			"grid_view_by_label": "View by",
 			"grid_view_1": "Ändern Sie die Rasteransicht auf 1 Produkt pro Zeile",
 			"grid_view_2": "Ändern Sie die Rasteransicht auf 2 Produkte pro Zeile",
 			"grid_view_3": "Ändern Sie die Rasteransicht auf 3 Produkte pro Zeile",
