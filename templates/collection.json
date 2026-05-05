@@ -11,6 +11,7 @@
   "sections": {
     "plp-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_description": false,
@@ -122,10 +123,10 @@
         "sidebar_banner_tQeFrU": {
           "type": "sidebar-banner",
           "settings": {
-            "image": "shopify://shop_images/anni_ivory_model.png",
+            "image": "shopify://shop_images/alice_snow_model.jpg",
             "heading": "Hochzeitssaison",
             "link_label": "Saisonale Ohrringe",
-            "link_url": "/",
+            "link_url": "shopify://collections/hochzeitssaison",
             "link_external": false
           }
         }
