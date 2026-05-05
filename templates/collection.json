@@ -88,6 +88,7 @@
         "collection_4E7MR4",
         "collection_VGF9CD"
       ],
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -109,6 +110,7 @@
       "blocks": {
         "grid_banner_rJEHMj": {
           "type": "grid-banner",
+          "disabled": true,
           "settings": {
             "heading": "Benefits of Made-to-Measure",
             "link_label": "Read More",
@@ -120,8 +122,9 @@
         "sidebar_banner_tQeFrU": {
           "type": "sidebar-banner",
           "settings": {
-            "heading": "Jackets and Trousers",
-            "link_label": "SEE ALL PRODUCTS",
+            "image": "shopify://shop_images/anni_ivory_model.png",
+            "heading": "Hochzeitssaison",
+            "link_label": "Saisonale Ohrringe",
             "link_url": "/",
             "link_external": false
           }
