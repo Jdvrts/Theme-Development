@@ -126,33 +126,11 @@
         "upsell_heading": "Upsell products",
         "upsell_products": []
       }
-    },
-    "1777558084825559f3": {
-      "type": "apps",
-      "blocks": {
-        "omnisend_email_marketing_sms_embedded_form_Efxxft": {
-          "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
-          "settings": {
-            "form_id": "692f0c8db9bc5467febe750f"
-          }
-        }
-      },
-      "block_order": [
-        "omnisend_email_marketing_sms_embedded_form_Efxxft"
-      ],
-      "settings": {
-        "container_width": "inherit",
-        "offset_top_desktop": 25,
-        "offset_bottom_desktop": 25,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25
-      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "cart-drawer",
-    "1777558084825559f3"
+    "cart-drawer"
   ]
 }
