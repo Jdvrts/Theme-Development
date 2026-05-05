@@ -11,10 +11,10 @@
   "sections": {
     "plp-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_description": false,
+        "custom_image": "{{ collection.image }}",
         "overlay_color": "rgba(0, 0, 0, 0.10)",
         "text_color": "#ffffff",
         "offset_top_desktop": 0,
