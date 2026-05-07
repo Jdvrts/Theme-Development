@@ -239,6 +239,7 @@
         "product_feature_DKMakk",
         "product_feature_N8e3my"
       ],
+      "disabled": true,
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
