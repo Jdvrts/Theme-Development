@@ -58,9 +58,31 @@
         "is_newsletter_popup_show_socials": true,
         "newsletter_popup_enable_animation": true
       }
+    },
+    "177826311607801fa3": {
+      "type": "apps",
+      "blocks": {
+        "omnisend_email_marketing_sms_embedded_form_DGp4R8": {
+          "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "settings": {
+            "form_id": "692f13625000977f50421f74"
+          }
+        }
+      },
+      "block_order": [
+        "omnisend_email_marketing_sms_embedded_form_DGp4R8"
+      ],
+      "settings": {
+        "container_width": "inherit",
+        "offset_top_desktop": 25,
+        "offset_bottom_desktop": 25,
+        "offset_top_mobile": 25,
+        "offset_bottom_mobile": 25
+      }
     }
   },
   "order": [
-    "newsletter_popup"
+    "newsletter_popup",
+    "177826311607801fa3"
   ]
 }
