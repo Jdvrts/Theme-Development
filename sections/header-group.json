@@ -50,7 +50,7 @@
       "settings": {
         "header_type": "static",
         "enable_transparent_header_homepage": true,
-        "enable_transparent_header_collection": true,
+        "enable_transparent_header_collection": false,
         "enable_transparent_header_mobile": false,
         "is_show_border": false,
         "is_language_selector": true,
