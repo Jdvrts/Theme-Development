@@ -1,6 +1,108 @@
+{% doc %}
+  @prompt
+    Add a 1px solid black border to each product card element with the classes `product-card` and `js-product-card`.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-card-border-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+  }
+
+  .ai-product-card-border-{{ ai_gen_id }} .product-card,
+  .ai-product-card-border-{{ ai_gen_id }} .js-product-card {
+    border: {{ block.settings.border_width }}px {{ block.settings.border_style }} {{ block.settings.border_color }} !important;
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+{% endstyle %}
+
+<product-card-border-{{ ai_gen_id }}
+  class="ai-product-card-border-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+</product-card-border-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductCardBorder{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.applyBorderStyles();
+      }
+
+      applyBorderStyles() {
+        const productCards = document.querySelectorAll('.product-card, .js-product-card');
+        
+        productCards.forEach((card) => {
+          card.style.border = '{{ block.settings.border_width }}px {{ block.settings.border_style }} {{ block.settings.border_color }}';
+          card.style.borderRadius = '{{ block.settings.border_radius }}px';
+        });
+      }
+    }
+
+    customElements.define('product-card-border-{{ ai_gen_id }}', ProductCardBorder{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Product card border",
+  "settings": [
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border width",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "select",
+      "id": "border_style",
+      "label": "Border style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+        {
+          "value": "dashed",
+          "label": "Dashed"
+        },
+        {
+          "value": "dotted",
+          "label": "Dotted"
+        }
+      ],
+      "default": "solid"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product card border"
+    }
+  ]
+}
 {% endschema %}
