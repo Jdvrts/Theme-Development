@@ -132,7 +132,7 @@
   {{ block.shopify_attributes }}
 >
   <div class="ai-sticky-atc-container-{{ ai_gen_id }}">
-    <div class="ai-sticky-atc-image-{{ ai_gen_id }}" display: flex; align-items: center;>
+    <div class="ai-sticky-atc-image-{{ ai_gen_id }}">
       {% if product.featured_image %}
         <img
           src="{{ product.featured_image | image_url: width: 200 }}"
@@ -172,10 +172,16 @@
         {{ block.settings.button_text_sold_out }}
       {% endif %}
     </button>
-    <button class="footer__back-to-top button-social js-back-to-top-button" type="button" aria-label="{{ 'general.accessibility.scroll_to_top' | t | escape }}" style="margin-left: auto;">
-  {%- render 'icons', icon: 'slider-arrow-up' -%}
-</button>
-
+    {% if block.settings.show_back_to_top %}
+    <button
+      class="footer__back-to-top button-social js-back-to-top-button"
+      type="button"
+      aria-label="{{ 'general.accessibility.scroll_to_top' | t | escape }}"
+      style="flex-shrink: 0; margin-left: {{ block.settings.gap }}px;"
+    >
+      {%- render 'icons', icon: 'slider-arrow-up' -%}
+       {% endif %}
+    </button>
   </div>
 </sticky-add-to-cart-{{ ai_gen_id }}>
 
@@ -247,6 +253,12 @@
     {
       "type": "header",
       "content": "General"
+    },
+    {
+  "type": "checkbox",
+  "id": "show_back_to_top",
+  "label": "Show back to top button",
+  "default": true
     },
     {
       "type": "range",
