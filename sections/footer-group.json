@@ -43,6 +43,7 @@
       "blocks": {
         "newsletter": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "heading": "Newsletter",
             "text": "Subscribe to our newsletter for exclusive updates, style tips, and special offers - straight to your inbox.",
@@ -83,6 +84,7 @@
         "contact_6cUjxD"
       ],
       "settings": {
+        "logo_image": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",
         "logo_image_width": 150,
         "copyright_text": "Copyright © %date%.",
         "is_show_payment_methods": false,
