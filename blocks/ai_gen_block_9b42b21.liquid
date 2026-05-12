@@ -132,7 +132,7 @@
   {{ block.shopify_attributes }}
 >
   <div class="ai-sticky-atc-container-{{ ai_gen_id }}">
-    <div class="ai-sticky-atc-image-{{ ai_gen_id }}">
+    <div class="ai-sticky-atc-image-{{ ai_gen_id }}" display: flex; align-items: center;>
       {% if product.featured_image %}
         <img
           src="{{ product.featured_image | image_url: width: 200 }}"
@@ -172,6 +172,10 @@
         {{ block.settings.button_text_sold_out }}
       {% endif %}
     </button>
+    <button class="footer__back-to-top button-social js-back-to-top-button" type="button" aria-label="{{ 'general.accessibility.scroll_to_top' | t | escape }}" style="margin-left: auto;">
+  {%- render 'icons', icon: 'slider-arrow-up' -%}
+</button>
+
   </div>
 </sticky-add-to-cart-{{ ai_gen_id }}>
 
