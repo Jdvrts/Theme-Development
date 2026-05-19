@@ -81,8 +81,8 @@
           "type": "drawers",
           "settings": {
             "show_description": true,
-            "description_toggle_text": "Description",
-            "description_drawer_title": "Description",
+            "description_toggle_text": "Beschreibung",
+            "description_drawer_title": "Beschreibung",
             "drawer_page_1": "",
             "drawer_toggle_text_1": "Size Guide",
             "drawer_title_1": "Size Guide",
