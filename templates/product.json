@@ -56,6 +56,7 @@
         },
         "quantity": {
           "type": "quantity",
+          "disabled": true,
           "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
@@ -309,6 +310,7 @@
         "ai_gen_block_9b42b21_yBRgCV": {
           "type": "ai_gen_block_9b42b21",
           "settings": {
+            "show_back_to_top": true,
             "scroll_threshold": 400,
             "container_width": 1200,
             "gap": 25,
