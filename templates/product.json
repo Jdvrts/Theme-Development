@@ -148,115 +148,6 @@
         "inner_offset_bottom_mobile": 0
       }
     },
-    "specifications_twHAyM": {
-      "type": "specifications",
-      "blocks": {
-        "toggle_content_8cJwfA": {
-          "type": "toggle_content",
-          "settings": {
-            "heading": "Accordion heading",
-            "text": "<p>Accordion content.</p>"
-          }
-        },
-        "toggle_content_k9PeYh": {
-          "type": "toggle_content",
-          "settings": {
-            "heading": "Accordion heading",
-            "text": "<p>Accordion content.</p>"
-          }
-        },
-        "toggle_content_b9FmNx": {
-          "type": "toggle_content",
-          "settings": {
-            "heading": "Accordion heading",
-            "text": "<p>Accordion content.</p>"
-          }
-        },
-        "toggle_content_qW34hk": {
-          "type": "toggle_content",
-          "settings": {
-            "heading": "Accordion heading",
-            "text": "<p>Accordion content.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "toggle_content_8cJwfA",
-        "toggle_content_k9PeYh",
-        "toggle_content_b9FmNx",
-        "toggle_content_qW34hk"
-      ],
-      "name": "Specifications",
-      "settings": {
-        "heading": "Specifications",
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0
-      }
-    },
-    "product_features": {
-      "type": "product-features",
-      "blocks": {
-        "product_feature_DKMakk": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Heading prod f v1",
-            "description": "description of feature v1 Lorem ipsum dolor sit amet, consectetur adipiscing.",
-            "hotspot_vertical_position": 51,
-            "hotspot_horizontal_position": 51,
-            "feature_icon_1": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
-            "feature_text_1": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_2": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_3": "Eco-friendly natural fiber.",
-            "feature_text_4": "Feature text 4"
-          }
-        },
-        "product_feature_N8e3my": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Heading prod ft v2",
-            "description": "description of feature v2 Lorem ipsum dolor sit amet, consectetur adipiscing.",
-            "hotspot_vertical_position": 65,
-            "hotspot_horizontal_position": 68,
-            "feature_text_1": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_2": "Eco-friendly natural fiber.",
-            "feature_text_3": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_4": "Feature text 4"
-          }
-        }
-      },
-      "block_order": [
-        "product_feature_DKMakk",
-        "product_feature_N8e3my"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
-        "is_hotspot_animated": true,
-        "hotspot_color": "#000000",
-        "hotspot_border_color": "#000000",
-        "hotspot_background": "rgba(255, 255, 255, 0.90)",
-        "hotspot_active_color": "#ffffff",
-        "hotspot_active_border_color": "#ffffff",
-        "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
-        "heading": "Heres headingfor section",
-        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. <br/><br/></p>",
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 0,
-        "inner_offset_bottom": 0,
-        "inner_offset_top_mobile": 0,
-        "inner_offset_bottom_mobile": 0
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -352,8 +243,6 @@
   },
   "order": [
     "product-template",
-    "specifications_twHAyM",
-    "product_features",
     "product-recommendations",
     "recently-viewed",
     "17775634770ba24d73"
