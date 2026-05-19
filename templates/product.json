@@ -148,61 +148,54 @@
         "inner_offset_bottom_mobile": 0
       }
     },
-    "richtext": {
-      "type": "richtext",
-      "disabled": true,
+    "specifications_twHAyM": {
+      "type": "specifications",
+      "blocks": {
+        "toggle_content_8cJwfA": {
+          "type": "toggle_content",
+          "settings": {
+            "heading": "Accordion heading",
+            "text": "<p>Accordion content.</p>"
+          }
+        },
+        "toggle_content_k9PeYh": {
+          "type": "toggle_content",
+          "settings": {
+            "heading": "Accordion heading",
+            "text": "<p>Accordion content.</p>"
+          }
+        },
+        "toggle_content_b9FmNx": {
+          "type": "toggle_content",
+          "settings": {
+            "heading": "Accordion heading",
+            "text": "<p>Accordion content.</p>"
+          }
+        },
+        "toggle_content_qW34hk": {
+          "type": "toggle_content",
+          "settings": {
+            "heading": "Accordion heading",
+            "text": "<p>Accordion content.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "toggle_content_8cJwfA",
+        "toggle_content_k9PeYh",
+        "toggle_content_b9FmNx",
+        "toggle_content_qW34hk"
+      ],
+      "name": "Specifications",
       "settings": {
+        "heading": "Specifications",
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Elegance <em>Redefined</em>",
-        "label": "Pollheim",
-        "text_content": "<p>Pollheim brand is a beacon of sophistication, offering meticulously crafted clothing that epitomizes timeless elegance. Our exquisite designs are tailored to accentuate individual style, empowering fashion enthusiasts to make a statement with confidence.</p><p>From luxurious fabrics to impeccable attention to detail, each piece from Pollheim brand tells a story of unparalleled quality and exquisite craftsmanship. Embrace the artistry of fashion and experience a world where elegance is redefined. Elevate your wardrobe with Pollheim brand and indulge in the epitome of refined fashion.</p>",
-        "text_alignment": "center",
-        "enable_read_more": false,
-        "read_more_text": "Show more",
-        "show_less_text": "Show less",
-        "link_text": "Link name",
-        "link": "",
         "container_width": "inherit",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,
         "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 64,
-        "inner_offset_bottom": 64,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
-      }
-    },
-    "image_with_text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "scheme-1",
-        "images_layout": "one_image",
-        "enable_images_animation": true,
-        "scroll_images_direction": "top",
-        "image_position": "left",
-        "text_alignment": "center",
-        "label": "POLLHEIM",
-        "heading": "Ensure a high level of comfort",
-        "text_content": "<p>THE LACE brand is a beacon of sophistication, offering meticulously crafted clothing that epitomizes timeless elegance. Our exquisite designs are tailored to accentuate individual style, empowering fashion enthusiasts to make a statement with confidence.</p>",
-        "button_label": "Show All",
-        "button_aria_label": "Link to All collection",
-        "button_url": "/",
-        "button_style": "primary",
-        "fist_col_movement_speed": 20,
-        "second_col_movement_speed": 20,
-        "container_width": "inherit",
-        "offset_top_desktop": 50,
-        "offset_bottom_desktop": 50,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 30,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
+        "offset_bottom_mobile": 0
       }
     },
     "product_features": {
@@ -359,8 +352,7 @@
   },
   "order": [
     "product-template",
-    "richtext",
-    "image_with_text",
+    "specifications_twHAyM",
     "product_features",
     "product-recommendations",
     "recently-viewed",
