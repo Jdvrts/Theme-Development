@@ -83,8 +83,8 @@
             "show_description": true,
             "description_toggle_text": "Beschreibung",
             "description_drawer_title": "Beschreibung",
-            "drawer_page_1": "",
-            "drawer_toggle_text_1": "Size Guide",
+            "drawer_page_1": "new-page",
+            "drawer_toggle_text_1": "New page thingy",
             "drawer_title_1": "Size Guide",
             "drawer_page_2": "",
             "drawer_toggle_text_2": "Shipping",
@@ -269,8 +269,8 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-1",
-        "heading": "Recommendations",
-        "products_to_show": 4,
+        "heading": "Empfehlungen",
+        "products_to_show": 8,
         "enable_shopify_recommendations": true,
         "collection": "",
         "container_width": "inherit",
@@ -287,7 +287,7 @@
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
-        "heading": "Recently viewed",
+        "heading": "Zuletzt angesehen",
         "products_to_show": 4,
         "layout": "4",
         "show_arrows": true,
