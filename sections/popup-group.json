@@ -24,6 +24,7 @@
       "block_order": [
         "omnisend_email_marketing_sms_embedded_form_DGp4R8"
       ],
+      "disabled": true,
       "settings": {
         "container_width": "inherit",
         "offset_top_desktop": 25,
