@@ -99,8 +99,8 @@
           "type": "shipping",
           "settings": {
             "amount": 50,
-            "message": "You are only {amount} away from free shipping",
-            "congratulatory_message": "You got free shipping",
+            "message": "Nur noch {amount} bis zum kostenlosen Versand",
+            "congratulatory_message": "Hurra! Keine Versandkosten!",
             "bar_color": "#e9e9e9",
             "fill_color": "#ffd875"
           }
