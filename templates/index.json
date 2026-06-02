@@ -336,13 +336,13 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Acetat Ketten",
+        "heading": "Acetat Bestseller",
         "link_label": "See all products",
         "link_url": "/",
         "product_list": [
-          "kette-acetat-alice-cream-silber",
-          "kette-acetat-alice-calypso-silber",
-          "kette-acetat-alice-bubblegum-silber"
+          "ohrringe-acetat-adua-bubblegum-ohrringe-acetat-adua-bubblegum",
+          "ohrringe-acetat-adua-calypso",
+          "ohrringe-acetat-adua-fruit-punch"
         ],
         "layout": "3",
         "show_arrows": true,
