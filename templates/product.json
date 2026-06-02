@@ -38,10 +38,10 @@
         "price": {
           "type": "price",
           "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
+            "offset_top_desktop": 10,
+            "offset_bottom_desktop": 10,
+            "offset_top_mobile": 10,
+            "offset_bottom_mobile": 10
           }
         },
         "options": {
@@ -83,9 +83,9 @@
             "show_description": true,
             "description_toggle_text": "Beschreibung",
             "description_drawer_title": "Beschreibung",
-            "drawer_page_1": "new-page",
+            "drawer_page_1": "",
             "drawer_toggle_text_1": "Label New page thingy",
-            "drawer_title_1": "Heading New page thingy label",
+            "drawer_title_1": "",
             "drawer_page_2": "materialvorteile",
             "drawer_toggle_text_2": "Materialvorteile",
             "drawer_title_2": "Materialvorteile",
