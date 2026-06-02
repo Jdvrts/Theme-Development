@@ -93,20 +93,13 @@
             "collection": "premade-gift-sets",
             "image": "shopify://shop_images/Set_Lux_Gold_FL.jpg"
           }
-        },
-        "collection_yCnzxH": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessoires"
-          }
         }
       },
       "block_order": [
         "collection_ceBzne",
         "collection_JNPaDe",
         "collection_yekxQT",
-        "collection_diHMBL",
-        "collection_yCnzxH"
+        "collection_diHMBL"
       ],
       "custom_css": [],
       "name": "Collection list",
