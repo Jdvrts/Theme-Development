@@ -119,74 +119,6 @@
         "inner_offset_bottom_mobile": 32
       }
     },
-    "trends_products": {
-      "type": "trend-products",
-      "blocks": {
-        "product_MCChEm": {
-          "type": "product",
-          "settings": {
-            "product": "ear-cuff-triple-sterling-silber-vergoldet",
-            "horizontal_position_desktop": 58,
-            "vertical_position_desktop": 10,
-            "horizontal_position_mobile": 46,
-            "vertical_position_mobile": 29
-          }
-        },
-        "product_PrGdKD": {
-          "type": "product",
-          "settings": {
-            "product": "halskette-choker-perlen-paula",
-            "horizontal_position_desktop": 46,
-            "vertical_position_desktop": 74,
-            "horizontal_position_mobile": 57,
-            "vertical_position_mobile": 58
-          }
-        },
-        "product_6dmKeT": {
-          "type": "product",
-          "settings": {
-            "product": "statement-armkette-lara-edelstahl-gold",
-            "horizontal_position_desktop": 51,
-            "vertical_position_desktop": 86,
-            "horizontal_position_mobile": 72,
-            "vertical_position_mobile": 61
-          }
-        }
-      },
-      "block_order": [
-        "product_MCChEm",
-        "product_PrGdKD",
-        "product_6dmKeT"
-      ],
-      "custom_css": [
-        ".image {align-self: flex-start;}"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "title": "NEW LOOK",
-        "text": "Entdecke unsere Highlights",
-        "button_label": "See all",
-        "button_aria-label": "",
-        "button_link": "/",
-        "show_one_open": true,
-        "enable_hotspot_animation": false,
-        "image_desktop": "shopify://shop_images/DSCF5351_1.jpg",
-        "text_color": "#faf4f4",
-        "link_color": "#000000",
-        "spot_background": "rgba(0,0,0,0.1)",
-        "spot_color": "#fd1b1b",
-        "spot_border_color": "#ffffff",
-        "spot_background_active": "rgba(0, 0, 0, 0.5)",
-        "spot_color_active": "#ffffff",
-        "spot_border_color_active": "#393939",
-        "container_width": "inherit",
-        "offset_top_desktop": 50,
-        "offset_bottom_desktop": 50,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -304,52 +236,12 @@
         "offset_bottom_mobile_internal": 0
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
-        "heading": "",
-        "collection": "premade-gift-sets",
-        "image": "shopify://shop_images/full_box.jpg",
-        "link_label": "",
-        "container_width": "inherit",
-        "offset_top_desktop": 100,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 40,
-        "inner_offset_top": 64,
-        "inner_offset_bottom": 64,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
-      }
-    },
     "featured_product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-            "make_vendor_link": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "sku": {
-          "type": "sku",
-          "settings": {
-            "sku_text": "SKU: {SKU}",
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -375,32 +267,14 @@
             "offset_bottom_mobile": 8
           }
         },
-        "quantity": {
-          "type": "quantity",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "add_to_cart": {
           "type": "add_to_cart",
           "settings": {
             "button_type": "secondary",
             "button_buy_it_type": "primary",
-            "show_additional_buttons": true,
-            "show_gift_card_recipient": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {
-            "offset_top_desktop": 8,
+            "show_additional_buttons": false,
+            "show_gift_card_recipient": false,
+            "offset_top_desktop": 25,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
             "offset_bottom_mobile": 8
@@ -412,12 +286,12 @@
             "show_description": false,
             "description_toggle_text": "Description",
             "description_drawer_title": "Description",
-            "drawer_page_1": "",
-            "drawer_toggle_text_1": "Drawer 1",
-            "drawer_title_1": "Drawer 1",
-            "drawer_page_2": "",
-            "drawer_toggle_text_2": "Drawer 2",
-            "drawer_title_2": "Drawer 2",
+            "drawer_page_1": "pflegehinweise",
+            "drawer_toggle_text_1": "Pflegehinweise",
+            "drawer_title_1": "Pflegehinweise",
+            "drawer_page_2": "materialvorteile",
+            "drawer_toggle_text_2": "Materialvorteile",
+            "drawer_title_2": "Materialvorteile",
             "drawer_page_3": "",
             "drawer_toggle_text_3": "Drawer 3",
             "drawer_title_3": "Drawer 3",
@@ -426,29 +300,14 @@
             "offset_top_mobile": 8,
             "offset_bottom_mobile": 8
           }
-        },
-        "complementary": {
-          "type": "complementary",
-          "settings": {
-            "heading": "You May Also Like",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "sku",
         "options",
         "price",
-        "quantity",
         "add_to_cart",
-        "pickup_availability",
-        "drawers",
-        "complementary"
+        "drawers"
       ],
       "settings": {
         "enable_color_scheme_inheritance": true,
@@ -460,7 +319,7 @@
         "media_height": "square",
         "image_object_fit": "cover",
         "show_taxes_included": false,
-        "show_pay_installments": false,
+        "show_pay_installments": true,
         "show_size_guide": false,
         "size_guide_button_placement": "under-options",
         "size_guide_page": "",
@@ -475,6 +334,26 @@
         "inner_offset_bottom": 32,
         "inner_offset_top_mobile": 16,
         "inner_offset_bottom_mobile": 16
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
+        "heading": "",
+        "collection": "premade-gift-sets",
+        "image": "shopify://shop_images/full_box.jpg",
+        "link_label": "",
+        "container_width": "inherit",
+        "offset_top_desktop": 100,
+        "offset_bottom_desktop": 0,
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 40,
+        "inner_offset_top": 64,
+        "inner_offset_bottom": 64,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
       }
     },
     "featured_products": {
@@ -507,10 +386,9 @@
   "order": [
     "banner",
     "collection_list_xe8rKx",
-    "trends_products",
     "slideshow",
-    "featured-collection",
     "featured_product",
+    "featured-collection",
     "featured_products"
   ]
 }
