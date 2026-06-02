@@ -135,7 +135,7 @@
         "product_PrGdKD": {
           "type": "product",
           "settings": {
-            "product": "set-pearlicious-perlen-und-gold",
+            "product": "halskette-choker-perlen-paula",
             "horizontal_position_desktop": 46,
             "vertical_position_desktop": 74,
             "horizontal_position_mobile": 57,
@@ -145,7 +145,7 @@
         "product_6dmKeT": {
           "type": "product",
           "settings": {
-            "product": "bicolor-kette-edelstahl-m-lux",
+            "product": "statement-armkette-lara-edelstahl-gold",
             "horizontal_position_desktop": 51,
             "vertical_position_desktop": 86,
             "horizontal_position_mobile": 72,
@@ -165,7 +165,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "title": "NEW LOOK",
-        "text": "Entdecke unsere Neuheiten",
+        "text": "Entdecke unsere Highlights",
         "button_label": "See all",
         "button_aria-label": "",
         "button_link": "/",
