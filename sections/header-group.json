@@ -48,6 +48,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".button-link{font-size: 12px;}"
+      ],
       "settings": {
         "header_type": "static",
         "enable_transparent_header_homepage": true,

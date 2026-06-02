@@ -24,6 +24,7 @@
     "show_tax_and_shipping": false,
     "show_additional_checkout_buttons": false,
     "show_cart_notification": true,
+    "cart_notification_color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
     "is_show_unit_price": true,
     "quick_view_enable_buy_it_now": false,
     "quick_view_show_stock_message": true,
