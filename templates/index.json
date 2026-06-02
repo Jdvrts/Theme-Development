@@ -172,7 +172,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "title": "NEW LOOK",
-        "text": "Discover our new arrivals.",
+        "text": "Entdecke unsere Neuheiten",
         "button_label": "See all",
         "button_aria-label": "",
         "button_link": "/",
@@ -336,7 +336,7 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Kette acetat selection",
+        "heading": "Acetat Ketten",
         "link_label": "See all products",
         "link_url": "/",
         "product_list": [
