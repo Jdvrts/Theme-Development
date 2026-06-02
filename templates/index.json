@@ -255,9 +255,9 @@
           "type": "image",
           "settings": {
             "image_desktop": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
-            "heading": "Halsettlen",
+            "heading": "Neue Halsketten",
             "heading_size": 80,
-            "description": "<p>Verschönere deinen Hals</p>",
+            "description": "<p>So farbenfroh wie du</p>",
             "button_text": "Shop",
             "button_aria_label": "",
             "button_link": "shopify://collections/halsketten",
