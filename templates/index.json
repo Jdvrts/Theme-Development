@@ -68,16 +68,24 @@
     "collection_list_xe8rKx": {
       "type": "collection-list",
       "blocks": {
+        "collection_yDk78V": {
+          "type": "collection",
+          "settings": {
+            "collection": "halsketten",
+            "image": "shopify://shop_images/Kette-Perlen-edelstahl-Photoroom-e1716291550191.jpg"
+          }
+        },
+        "collection_dzeBFp": {
+          "type": "collection",
+          "settings": {
+            "collection": "ohrringe",
+            "image": "shopify://shop_images/Ohrringe_Creolen_Crushed_Edelstahl_Gold.jpg"
+          }
+        },
         "collection_ceBzne": {
           "type": "collection",
           "settings": {
             "collection": "ringe"
-          }
-        },
-        "collection_JNPaDe": {
-          "type": "collection",
-          "settings": {
-            "collection": "ear-cuffs"
           }
         },
         "collection_yekxQT": {
@@ -96,8 +104,9 @@
         }
       },
       "block_order": [
+        "collection_yDk78V",
+        "collection_dzeBFp",
         "collection_ceBzne",
-        "collection_JNPaDe",
         "collection_yekxQT",
         "collection_diHMBL"
       ],
