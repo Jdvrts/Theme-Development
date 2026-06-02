@@ -52,7 +52,7 @@
         "header_type": "static",
         "enable_transparent_header_homepage": true,
         "enable_transparent_header_collection": false,
-        "enable_transparent_header_mobile": false,
+        "enable_transparent_header_mobile": true,
         "is_show_border": false,
         "is_language_selector": true,
         "is_country_selector": true,
