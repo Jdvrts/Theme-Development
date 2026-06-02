@@ -122,16 +122,6 @@
     "trends_products": {
       "type": "trend-products",
       "blocks": {
-        "product_MCChEm": {
-          "type": "product",
-          "settings": {
-            "product": "ear-cuff-triple-sterling-silber-vergoldet",
-            "horizontal_position_desktop": 58,
-            "vertical_position_desktop": 10,
-            "horizontal_position_mobile": 46,
-            "vertical_position_mobile": 29
-          }
-        },
         "product_PrGdKD": {
           "type": "product",
           "settings": {
@@ -154,7 +144,6 @@
         }
       },
       "block_order": [
-        "product_MCChEm",
         "product_PrGdKD",
         "product_6dmKeT"
       ],
