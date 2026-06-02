@@ -49,7 +49,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".button-link{font-size: 12px;}"
+        ".button-link {font-size: 12px;}"
       ],
       "settings": {
         "header_type": "static",
@@ -118,10 +118,11 @@
         "selling",
         "benefit"
       ],
+      "name": "Warenkorb",
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Your cart",
+        "heading": "Warenkorb",
         "show_cart_items_count": true,
         "cart_button_label": "View cart",
         "upsell_heading": "Upsell products",
