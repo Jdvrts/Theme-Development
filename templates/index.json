@@ -327,16 +327,6 @@
     "featured_product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-            "make_vendor_link": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -439,7 +429,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "sku",
         "options",
@@ -456,9 +445,9 @@
         "product": "set-pearlicious-perlen-und-gold",
         "media_layout": "stacked_2_col",
         "thumbnails_position": "bottom",
-        "show_thumbnails_mobile": true,
+        "show_thumbnails_mobile": false,
         "media_height": "square",
-        "image_object_fit": "cover",
+        "image_object_fit": "contain",
         "show_taxes_included": false,
         "show_pay_installments": false,
         "show_size_guide": false,
