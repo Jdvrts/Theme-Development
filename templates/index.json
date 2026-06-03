@@ -111,9 +111,7 @@
         "collection_yekxQT",
         "collection_diHMBL"
       ],
-      "custom_css": [
-        ".collection-card {display: inline-block; margin-right: -0.25em; position: relative; top: 1.25em;}"
-      ],
+      "custom_css": [],
       "name": "Collection list",
       "settings": {
         "enable_color_scheme_inheritance": true,
