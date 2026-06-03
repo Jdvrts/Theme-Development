@@ -156,6 +156,7 @@
         "product_PrGdKD",
         "product_6dmKeT"
       ],
+      "disabled": true,
       "custom_css": [
         ".image {align-self: flex-start;}"
       ],
