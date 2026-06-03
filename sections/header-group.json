@@ -63,7 +63,7 @@
         "mobile_top_menu": "",
         "open_menu_type": "click",
         "make_first_lvl_clickable": false,
-        "burger_menu": "head-mega-menu-1",
+        "burger_menu": "",
         "hide_burger_menu_on_mobile": false,
         "additional_menu": "",
         "show_socials": false,
