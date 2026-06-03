@@ -33,6 +33,7 @@
     "color_label_base_border": "#fd1b1b",
     "product_card_button_background_opacity": 67,
     "article_default_image": "shopify://shop_images/kein_bild.jpg",
+    "article_read_more_label": "Weiterlesen",
     "quick_view_enable_buy_it_now": false,
     "quick_view_show_stock_message": true,
     "cart_reminder_enable": true,
