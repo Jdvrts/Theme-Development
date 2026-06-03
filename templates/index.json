@@ -12,7 +12,8 @@
     "banner": {
       "type": "banner",
       "custom_css": [
-        "h1,h3 {-webkit-text-stroke-width: 0.01px; -webkit-text-stroke-color: lightyellow;}"
+        "h1,h3 {-webkit-text-stroke-width: 0.01px; -webkit-text-stroke-color: lightyellow;}",
+        ".button {width: 30ch;}"
       ],
       "settings": {
         "desktop_image_height": "700px",
