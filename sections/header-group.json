@@ -102,19 +102,11 @@
             "bar_color": "#e9e9e9",
             "fill_color": "#ffd875"
           }
-        },
-        "benefit": {
-          "type": "benefit",
-          "settings": {
-            "text": "Benefit placement text goes HERE",
-            "icon": "shopify://shop_images/icon2v2.jpg"
-          }
         }
       },
       "block_order": [
         "items",
-        "selling",
-        "benefit"
+        "selling"
       ],
       "name": "Warenkorb",
       "settings": {
