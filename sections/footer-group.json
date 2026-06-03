@@ -38,6 +38,17 @@
       "name": "Mobile bottom nav",
       "settings": {}
     },
+    "custom_liquid_PN6iqz": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 1px; background-color: #e5d5e1; margin: 30px 0;\"></div>",
+        "offset_top_desktop": 60,
+        "offset_bottom_desktop": 60,
+        "offset_top_mobile": 30,
+        "offset_bottom_mobile": 30
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -100,6 +111,7 @@
   },
   "order": [
     "blocks_QWGNFd",
+    "custom_liquid_PN6iqz",
     "footer"
   ]
 }
