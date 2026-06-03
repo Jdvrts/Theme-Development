@@ -118,7 +118,7 @@
         "color_scheme": "",
         "heading": "",
         "show_products_count": false,
-        "container_width": "inherit",
+        "container_width": "100%",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 40,
         "offset_top_mobile": 25,
