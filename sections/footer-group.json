@@ -17,7 +17,7 @@
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
           "settings": {
-            "menu": "customer-account-main-menu",
+            "menu": "main-menu",
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
