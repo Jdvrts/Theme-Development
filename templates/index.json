@@ -111,7 +111,9 @@
         "collection_yekxQT",
         "collection_diHMBL"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "collection-card{}"
+      ],
       "name": "Collection list",
       "settings": {
         "enable_color_scheme_inheritance": true,
