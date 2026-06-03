@@ -143,7 +143,7 @@
         "show_grid_selector": true,
         "mobile_grid": "2",
         "show_color_swatch_in_filters": true,
-        "paginate_by": 18,
+        "paginate_by": 15,
         "pagination_type": "infinite_scroll",
         "load_more_style": "secondary",
         "container_width": "inherit",
