@@ -35,6 +35,7 @@
     "article_default_image": "shopify://shop_images/kein_bild.jpg",
     "article_read_more_label": "Weiterlesen",
     "quick_view_enable_buy_it_now": false,
+    "quick_view_image_fit": "quick-view__image-wrapper--cover",
     "quick_view_show_stock_message": true,
     "cart_reminder_enable": true,
     "cart_reminder_cookie_time": "30",
