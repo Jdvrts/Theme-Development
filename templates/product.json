@@ -38,10 +38,10 @@
         "price": {
           "type": "price",
           "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
+            "offset_top_desktop": 10,
+            "offset_bottom_desktop": 10,
+            "offset_top_mobile": 10,
+            "offset_bottom_mobile": 10
           }
         },
         "options": {
@@ -56,6 +56,7 @@
         },
         "quantity": {
           "type": "quantity",
+          "disabled": true,
           "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
@@ -80,17 +81,17 @@
           "type": "drawers",
           "settings": {
             "show_description": true,
-            "description_toggle_text": "Description",
-            "description_drawer_title": "Description",
+            "description_toggle_text": "Beschreibung",
+            "description_drawer_title": "Beschreibung",
             "drawer_page_1": "",
-            "drawer_toggle_text_1": "Size Guide",
-            "drawer_title_1": "Size Guide",
-            "drawer_page_2": "",
-            "drawer_toggle_text_2": "Shipping",
-            "drawer_title_2": "Shipping",
-            "drawer_page_3": "",
-            "drawer_toggle_text_3": "Drawer 3",
-            "drawer_title_3": "Drawer 3",
+            "drawer_toggle_text_1": "Label New page thingy",
+            "drawer_title_1": "",
+            "drawer_page_2": "materialvorteile",
+            "drawer_toggle_text_2": "Materialvorteile",
+            "drawer_title_2": "Materialvorteile",
+            "drawer_page_3": "pflegehinweise",
+            "drawer_toggle_text_3": "Pflegehinweise",
+            "drawer_title_3": "Pflegehinweise",
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -147,134 +148,18 @@
         "inner_offset_bottom_mobile": 0
       }
     },
-    "richtext": {
-      "type": "richtext",
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "heading": "Elegance <em>Redefined</em>",
-        "label": "Pollheim",
-        "text_content": "<p>Pollheim brand is a beacon of sophistication, offering meticulously crafted clothing that epitomizes timeless elegance. Our exquisite designs are tailored to accentuate individual style, empowering fashion enthusiasts to make a statement with confidence.</p><p>From luxurious fabrics to impeccable attention to detail, each piece from Pollheim brand tells a story of unparalleled quality and exquisite craftsmanship. Embrace the artistry of fashion and experience a world where elegance is redefined. Elevate your wardrobe with Pollheim brand and indulge in the epitome of refined fashion.</p>",
-        "text_alignment": "center",
-        "enable_read_more": false,
-        "read_more_text": "Show more",
-        "show_less_text": "Show less",
-        "link_text": "Link name",
-        "link": "",
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 64,
-        "inner_offset_bottom": 64,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
-      }
-    },
-    "image_with_text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "scheme-1",
-        "images_layout": "one_image",
-        "enable_images_animation": true,
-        "scroll_images_direction": "top",
-        "image_position": "left",
-        "text_alignment": "center",
-        "label": "POLLHEIM",
-        "heading": "Ensure a high level of comfort",
-        "text_content": "<p>THE LACE brand is a beacon of sophistication, offering meticulously crafted clothing that epitomizes timeless elegance. Our exquisite designs are tailored to accentuate individual style, empowering fashion enthusiasts to make a statement with confidence.</p>",
-        "button_label": "Show All",
-        "button_aria_label": "Link to All collection",
-        "button_url": "/",
-        "button_style": "primary",
-        "fist_col_movement_speed": 20,
-        "second_col_movement_speed": 20,
-        "container_width": "inherit",
-        "offset_top_desktop": 50,
-        "offset_bottom_desktop": 50,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 30,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
-    "product_features": {
-      "type": "product-features",
-      "blocks": {
-        "product_feature_DKMakk": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Heading prod f v1",
-            "description": "description of feature v1 Lorem ipsum dolor sit amet, consectetur adipiscing.",
-            "hotspot_vertical_position": 51,
-            "hotspot_horizontal_position": 51,
-            "feature_icon_1": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
-            "feature_text_1": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_2": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_3": "Eco-friendly natural fiber.",
-            "feature_text_4": "Feature text 4"
-          }
-        },
-        "product_feature_N8e3my": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Heading prod ft v2",
-            "description": "description of feature v2 Lorem ipsum dolor sit amet, consectetur adipiscing.",
-            "hotspot_vertical_position": 65,
-            "hotspot_horizontal_position": 68,
-            "feature_text_1": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_2": "Eco-friendly natural fiber.",
-            "feature_text_3": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_4": "Feature text 4"
-          }
-        }
-      },
-      "block_order": [
-        "product_feature_DKMakk",
-        "product_feature_N8e3my"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
-        "is_hotspot_animated": true,
-        "hotspot_color": "#000000",
-        "hotspot_border_color": "#000000",
-        "hotspot_background": "rgba(255, 255, 255, 0.90)",
-        "hotspot_active_color": "#ffffff",
-        "hotspot_active_border_color": "#ffffff",
-        "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
-        "heading": "Heres headingfor section",
-        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nullam, nisl consequat condimentum neque phasellus dui mus mauris, felis ut quis arcu tempus pellentesque fusce. <br/><br/></p>",
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 0,
-        "inner_offset_bottom": 0,
-        "inner_offset_top_mobile": 0,
-        "inner_offset_bottom_mobile": 0
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-1",
-        "heading": "Recommendations",
-        "products_to_show": 4,
+        "heading": "Empfehlungen",
+        "products_to_show": 6,
         "enable_shopify_recommendations": true,
         "collection": "",
         "container_width": "inherit",
-        "offset_top_desktop": 50,
-        "offset_bottom_desktop": 50,
+        "offset_top_desktop": 24,
+        "offset_bottom_desktop": 24,
         "offset_top_mobile": 25,
         "offset_bottom_mobile": 25,
         "inner_offset_top": 25,
@@ -286,14 +171,14 @@
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
-        "heading": "Recently viewed",
-        "products_to_show": 4,
+        "heading": "Ihre zuletzt angesehenen Produkte",
+        "products_to_show": 6,
         "layout": "4",
-        "show_arrows": true,
+        "show_arrows": false,
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "container_width": "inherit",
-        "offset_top_desktop": 25,
+        "offset_top_desktop": 24,
         "offset_bottom_desktop": 25,
         "offset_top_mobile": 25,
         "offset_bottom_mobile": 25,
@@ -309,6 +194,7 @@
         "ai_gen_block_9b42b21_yBRgCV": {
           "type": "ai_gen_block_9b42b21",
           "settings": {
+            "show_back_to_top": true,
             "scroll_threshold": 400,
             "container_width": 1200,
             "gap": 25,
@@ -357,9 +243,6 @@
   },
   "order": [
     "product-template",
-    "richtext",
-    "image_with_text",
-    "product_features",
     "product-recommendations",
     "recently-viewed",
     "17775634770ba24d73"

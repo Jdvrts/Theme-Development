@@ -11,6 +11,7 @@
   "sections": {
     "plp-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "show_description": true,
@@ -123,10 +124,10 @@
         "sidebar_banner_tQeFrU": {
           "type": "sidebar-banner",
           "settings": {
-            "image": "shopify://shop_images/alice_snow_model.jpg",
+            "image": "shopify://shop_images/new.webp",
             "heading": "Hochzeitssaison",
             "link_label": "Saisonale Ohrringe",
-            "link_url": "shopify://collections/hochzeitssaison",
+            "link_url": "shopify://collections/new-arrivals",
             "link_external": false
           }
         }
@@ -140,10 +141,10 @@
         "color_scheme": "",
         "filters_type": "sidebar",
         "show_grid_selector": true,
-        "mobile_grid": "1",
+        "mobile_grid": "2",
         "show_color_swatch_in_filters": true,
-        "paginate_by": 16,
-        "pagination_type": "pagination",
+        "paginate_by": 15,
+        "pagination_type": "infinite_scroll",
         "load_more_style": "secondary",
         "container_width": "inherit",
         "offset_top_desktop": 0,

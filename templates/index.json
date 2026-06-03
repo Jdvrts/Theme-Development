@@ -18,12 +18,12 @@
         "desktop_image_height": "700px",
         "mobile_image_height": "auto",
         "media_type": "image",
-        "title": "Strahl jetzt",
-        "text": "<h3>für den kommenden Sommer<h3></h3>\n</h3>",
-        "button_label_1": "Shop New",
+        "title": "Strahle jetzt",
+        "text": "<h3>den ganzen Sommer lang<h3></h3>\n</h3>",
+        "button_label_1": "Neuheiten",
         "button_link_1": "shopify://collections/new-arrivals",
         "button_aria_label_1": "View new product category",
-        "button_label_2": "Shop All",
+        "button_label_2": "Alle Kollektionen",
         "button_link_2": "shopify://collections",
         "button_aria_label_2": "View all collections",
         "image_desktop": "shopify://shop_images/DSCF5422_1.jpg",
@@ -68,16 +68,24 @@
     "collection_list_xe8rKx": {
       "type": "collection-list",
       "blocks": {
+        "collection_yDk78V": {
+          "type": "collection",
+          "settings": {
+            "collection": "halsketten",
+            "image": "shopify://shop_images/Kette-Perlen-edelstahl-Photoroom-e1716291550191.jpg"
+          }
+        },
+        "collection_dzeBFp": {
+          "type": "collection",
+          "settings": {
+            "collection": "ohrringe",
+            "image": "shopify://shop_images/Ohrringe_Creolen_Crushed_Edelstahl_Gold.jpg"
+          }
+        },
         "collection_ceBzne": {
           "type": "collection",
           "settings": {
             "collection": "ringe"
-          }
-        },
-        "collection_JNPaDe": {
-          "type": "collection",
-          "settings": {
-            "collection": "ear-cuffs"
           }
         },
         "collection_yekxQT": {
@@ -93,20 +101,14 @@
             "collection": "premade-gift-sets",
             "image": "shopify://shop_images/Set_Lux_Gold_FL.jpg"
           }
-        },
-        "collection_yCnzxH": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessoires"
-          }
         }
       },
       "block_order": [
+        "collection_yDk78V",
+        "collection_dzeBFp",
         "collection_ceBzne",
-        "collection_JNPaDe",
         "collection_yekxQT",
-        "collection_diHMBL",
-        "collection_yCnzxH"
+        "collection_diHMBL"
       ],
       "custom_css": [],
       "name": "Collection list",
@@ -129,20 +131,10 @@
     "trends_products": {
       "type": "trend-products",
       "blocks": {
-        "product_MCChEm": {
-          "type": "product",
-          "settings": {
-            "product": "ear-cuff-triple-sterling-silber-vergoldet",
-            "horizontal_position_desktop": 58,
-            "vertical_position_desktop": 10,
-            "horizontal_position_mobile": 46,
-            "vertical_position_mobile": 29
-          }
-        },
         "product_PrGdKD": {
           "type": "product",
           "settings": {
-            "product": "set-pearlicious-perlen-und-gold",
+            "product": "halskette-choker-perlen-paula",
             "horizontal_position_desktop": 46,
             "vertical_position_desktop": 74,
             "horizontal_position_mobile": 57,
@@ -152,7 +144,7 @@
         "product_6dmKeT": {
           "type": "product",
           "settings": {
-            "product": "bicolor-kette-edelstahl-m-lux",
+            "product": "statement-armkette-lara-edelstahl-gold",
             "horizontal_position_desktop": 51,
             "vertical_position_desktop": 86,
             "horizontal_position_mobile": 72,
@@ -161,10 +153,10 @@
         }
       },
       "block_order": [
-        "product_MCChEm",
         "product_PrGdKD",
         "product_6dmKeT"
       ],
+      "disabled": true,
       "custom_css": [
         ".image {align-self: flex-start;}"
       ],
@@ -172,7 +164,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "title": "NEW LOOK",
-        "text": "Discover our new arrivals.",
+        "text": "Entdecke unsere Highlights",
         "button_label": "See all",
         "button_aria-label": "",
         "button_link": "/",
@@ -200,11 +192,11 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image_desktop": "shopify://shop_images/DSCF5422_1.jpg",
+            "image_desktop": "shopify://shop_images/DSCF5412_1.jpg",
             "heading": "Neuer Sommer – neuer Look",
             "heading_size": 80,
-            "description": "<p>Benötigen Sie ein maßgeschneidertes Produkt? </p>",
-            "button_text": "Neuen Kollektionen",
+            "description": "<p>Bist du bereit für ein Glow-Up?</p>",
+            "button_text": "Neue Kollektionen",
             "button_aria_label": "",
             "button_link": "/",
             "open_in_new_tab": false,
@@ -228,7 +220,7 @@
           "type": "image",
           "settings": {
             "image_desktop": "shopify://shop_images/DSCF5429.jpg",
-            "heading": "Spring Gleam",
+            "heading": "Sommer Glanz",
             "heading_size": 80,
             "description": "<p>Strahle, wenn die Sonne scheint</p>",
             "button_text": "SHOP NOW",
@@ -255,9 +247,9 @@
           "type": "image",
           "settings": {
             "image_desktop": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
-            "heading": "Halsettlen",
+            "heading": "Neue Halsketten",
             "heading_size": 80,
-            "description": "<p>Verschönere deinen Hals</p>",
+            "description": "<p>So farbenfroh wie du</p>",
             "button_text": "Shop",
             "button_aria_label": "",
             "button_link": "shopify://collections/halsketten",
@@ -331,32 +323,6 @@
         "inner_offset_bottom_mobile": 32
       }
     },
-    "featured_products": {
-      "type": "featured-products",
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "heading": "Kette acetat selection",
-        "link_label": "See all products",
-        "link_url": "/",
-        "product_list": [
-          "kette-acetat-alice-cream-silber",
-          "kette-acetat-alice-calypso-silber",
-          "kette-acetat-alice-bubblegum-silber"
-        ],
-        "layout": "3",
-        "show_arrows": true,
-        "container_width": "inherit",
-        "offset_top_desktop": 30,
-        "offset_bottom_desktop": 30,
-        "offset_top_mobile": 30,
-        "offset_bottom_mobile": 30,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 30,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
     "featured_product": {
       "type": "featured-product",
       "blocks": {
@@ -383,15 +349,6 @@
           "type": "sku",
           "settings": {
             "sku_text": "SKU: {SKU}",
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
             "offset_top_desktop": 8,
             "offset_bottom_desktop": 8,
             "offset_top_mobile": 8,
@@ -454,10 +411,10 @@
             "show_description": false,
             "description_toggle_text": "Description",
             "description_drawer_title": "Description",
-            "drawer_page_1": "",
+            "drawer_page_1": "pflegehinweise",
             "drawer_toggle_text_1": "Drawer 1",
             "drawer_title_1": "Drawer 1",
-            "drawer_page_2": "",
+            "drawer_page_2": "materialvorteile",
             "drawer_toggle_text_2": "Drawer 2",
             "drawer_title_2": "Drawer 2",
             "drawer_page_3": "",
@@ -484,7 +441,6 @@
         "vendor",
         "title",
         "sku",
-        "description",
         "options",
         "price",
         "quantity",
@@ -520,304 +476,29 @@
         "inner_offset_bottom_mobile": 16
       }
     },
-    "product_features": {
-      "type": "product-features",
-      "blocks": {
-        "product_feature_ynTYHf": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Features",
-            "description": "Introducing our signature MatchlessMerino, made of Merino wool, this crewneck is thinner, softer and finer than regular wool, allowing breathability, comfort and warmth all in one. Dismissing the classic rough and itchy characteristics of wool, premium Merino wool offers an undeniable luxe feeling and classic look, with all-season versatility.",
-            "hotspot_vertical_position": 42,
-            "hotspot_horizontal_position": 54,
-            "feature_text_1": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_2": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_3": "Eco-friendly natural fiber.",
-            "feature_text_4": "Feature text 4"
-          }
-        },
-        "product_feature_zFPMYe": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Benefits",
-            "description": "Introducing our signature MatchlessMerino",
-            "hotspot_vertical_position": 62,
-            "hotspot_horizontal_position": 45,
-            "feature_text_1": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_2": "Eco-friendly natural fiber.",
-            "feature_text_3": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_4": "Feature text 4"
-          }
-        },
-        "product_feature_RLDMRj": {
-          "type": "product_feature",
-          "settings": {
-            "heading": "Sustainability",
-            "description": "Ethically sourced materials with a commitment to eco-friendly production. Designed to minimize environmental impact without compromising on quality or style.",
-            "hotspot_vertical_position": 81,
-            "hotspot_horizontal_position": 58,
-            "feature_text_1": "Eco-friendly natural fiber.",
-            "feature_text_2": "Natural fiber PROVEN to draw moisture away from you - fast.",
-            "feature_text_3": "All season versatility that keeps you warm when it’s cold and cool when it’s hot.",
-            "feature_text_4": "Feature text 4"
-          }
-        }
-      },
-      "block_order": [
-        "product_feature_ynTYHf",
-        "product_feature_zFPMYe",
-        "product_feature_RLDMRj"
-      ],
-      "disabled": true,
+    "featured_products": {
+      "type": "featured-products",
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "is_hotspot_animated": true,
-        "hotspot_color": "#000000",
-        "hotspot_border_color": "#000000",
-        "hotspot_background": "rgba(255, 255, 255, 0.90)",
-        "hotspot_active_color": "#ffffff",
-        "hotspot_active_border_color": "#ffffff",
-        "hotspot_active_background": "rgba(0, 0, 0, 0.72)",
-        "heading": "POLLHEIM features",
-        "description": "<p>Crafted from high-quality wool and cotton blends, ensuring durability, breathability, and all-day comfort. Designed for a luxurious feel with a refined finish.</p>",
+        "heading": "Acetat Bestseller",
+        "link_label": "siehe mehr",
+        "link_url": "/",
+        "product_list": [
+          "ohrringe-acetat-adua-bubblegum-ohrringe-acetat-adua-bubblegum",
+          "ohrringe-acetat-adua-calypso",
+          "ohrringe-acetat-adua-fruit-punch"
+        ],
+        "layout": "3",
+        "show_arrows": true,
         "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 0,
-        "inner_offset_bottom": 0,
-        "inner_offset_top_mobile": 0,
-        "inner_offset_bottom_mobile": 0
-      }
-    },
-    "ticker": {
-      "type": "ticker",
-      "settings": {
-        "hide_divider": false,
-        "text": "<p>Vorschau auf die neue Kollektion</p>",
-        "desktop_movement_speed": 34,
-        "mobile_movement_speed": 35,
-        "main_image": "shopify://shop_images/statement_kette_lara_gold_model.jpg",
-        "text_color": "#ffffff",
-        "container_width": "inherit",
-        "offset_top_desktop_external": 70,
-        "offset_bottom_desktop_external": 0,
-        "offset_top_mobile_external": 0,
-        "offset_bottom_mobile_external": 0
-      }
-    },
-    "featured_blog": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "heading": "The Passion <em>Blogpost</em>",
-        "blog": "",
-        "link_text": "All News",
-        "link_aria_label_text": "Link to blog",
-        "button_style": "primary",
-        "container_width": "inherit",
-        "offset_top_desktop": 60,
-        "offset_bottom_desktop": 60,
+        "offset_top_desktop": 30,
+        "offset_bottom_desktop": 30,
         "offset_top_mobile": 30,
         "offset_bottom_mobile": 30,
         "inner_offset_top": 30,
         "inner_offset_bottom": 30,
         "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
-    "our_story": {
-      "type": "our-story",
-      "blocks": {
-        "image_JFcCPh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Social_share_image_1_097a611f-c6c4-420e-a3d3-2d4548554407.jpg"
-          }
-        },
-        "image_VqJFLq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slideshow_frame_1_e3164886-0bbc-49b8-9db5-e2b412063905.jpg"
-          }
-        },
-        "image_VN9dpV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slideshow_frame_mobile_2_007be429-3857-49a5-aae8-28adb0062b3e.jpg"
-          }
-        },
-        "image_VRmw98": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/in-bold-type-size-5rem-white-letters-with-gold-glowing-border-for-each-letter-spelling-out-slideshow-img-1.png"
-          }
-        },
-        "image_KdBE8a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/icon.jpg"
-          }
-        },
-        "image_g4aKPB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {}
-        },
-        "image_EKikt6": {
-          "type": "image",
-          "disabled": true,
-          "settings": {}
-        },
-        "image_7wrHH9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "image_JFcCPh",
-        "image_VqJFLq",
-        "image_VN9dpV",
-        "image_VRmw98",
-        "image_KdBE8a",
-        "image_g4aKPB",
-        "image_EKikt6",
-        "image_7wrHH9"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": false,
-        "color_scheme": "scheme-5",
-        "heading": "Text heading",
-        "subheading": "Text subheading",
-        "text": "POLLHEIM - For Men and Women",
-        "button_label": "Button label",
-        "button_aria_label": "",
-        "button_url": "",
-        "button_style": "primary",
-        "text_alignment": "center",
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0,
-        "inner_offset_top": 64,
-        "inner_offset_bottom": 64,
-        "inner_offset_top_mobile": 32,
-        "inner_offset_bottom_mobile": 32
-      }
-    },
-    "image_with_text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "images_layout": "multiply_images",
-        "enable_images_animation": true,
-        "scroll_images_direction": "top",
-        "image_position": "right",
-        "text_alignment": "center",
-        "label": "Pollheim suits",
-        "heading": "For Mens and Womens",
-        "text_content": "<p>Welcome to our distinguished Men's and Woman's Wear Collection at Pollheim, where craftsmanship meets contemporary style. Our expertly tailored garments are designed to elevate your wardrobe, offering a perfect blend of classic elegance and modern sophistication.</p>",
-        "button_label": "Button label",
-        "button_aria_label": "",
-        "button_url": "",
-        "button_style": "primary",
-        "fist_col_movement_speed": 20,
-        "second_col_movement_speed": 20,
-        "container_width": "inherit",
-        "offset_top_desktop": 50,
-        "offset_bottom_desktop": 50,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 30,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
-    "social_gallery": {
-      "type": "social-gallery",
-      "blocks": {
-        "image_GRA6hE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        },
-        "image_AKtAfW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Halskette_Choker_Perlen_Elisa.png",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        },
-        "image_TU37a6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Halskette_Choker_Perlen_Lotte_model.png",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        },
-        "image_bR4Yrp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Kette_schlange_silber_model.png",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        },
-        "image_iAq4ga": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Kette_stegosaurus_gold_model_1.jpg",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        },
-        "image_87xRz8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Kette_brachiosaurus_silber_model.jpg",
-            "image_link": "",
-            "open_link_in_new_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "image_GRA6hE",
-        "image_AKtAfW",
-        "image_TU37a6",
-        "image_bR4Yrp",
-        "image_iAq4ga",
-        "image_87xRz8"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "title": "Die schönsten Halsketten",
-        "link_label": "Shop Halsketten",
-        "link_url": "shopify://collections/halsketten",
-        "animation_movement_speed": 41,
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 30,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 30,
-        "inner_offset_top": 0,
-        "inner_offset_bottom": 30,
-        "inner_offset_top_mobile": 0,
         "inner_offset_bottom_mobile": 30
       }
     }
@@ -828,13 +509,7 @@
     "trends_products",
     "slideshow",
     "featured-collection",
-    "featured_products",
     "featured_product",
-    "product_features",
-    "ticker",
-    "featured_blog",
-    "our_story",
-    "image_with_text",
-    "social_gallery"
+    "featured_products"
   ]
 }

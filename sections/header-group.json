@@ -48,16 +48,17 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [],
       "settings": {
         "header_type": "static",
         "enable_transparent_header_homepage": true,
-        "enable_transparent_header_collection": true,
-        "enable_transparent_header_mobile": false,
+        "enable_transparent_header_collection": false,
+        "enable_transparent_header_mobile": true,
         "is_show_border": false,
         "is_language_selector": true,
         "is_country_selector": true,
-        "logo": "shopify://shop_images/site-icon-small-v2.png",
-        "logo_transparent": "shopify://shop_images/fw_black_on_transp_Logo.png",
+        "logo": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
+        "logo_transparent": "shopify://shop_images/Dev_icon_b7732747-4d1e-4070-8bc9-71cd05fc1a26.jpg",
         "logo_width": 75,
         "logo_position": "middle",
         "menu": "main-menu",
@@ -96,29 +97,22 @@
           "type": "shipping",
           "settings": {
             "amount": 50,
-            "message": "You are only {amount} away from free shipping",
-            "congratulatory_message": "You got free shipping",
+            "message": "Nur noch {amount} bis zum kostenlosen Versand",
+            "congratulatory_message": "Hurra! Keine Versandkosten!",
             "bar_color": "#e9e9e9",
             "fill_color": "#ffd875"
-          }
-        },
-        "benefit": {
-          "type": "benefit",
-          "settings": {
-            "text": "Benefit placement text goes HERE",
-            "icon": "shopify://shop_images/icon2v2.jpg"
           }
         }
       },
       "block_order": [
         "items",
-        "selling",
-        "benefit"
+        "selling"
       ],
+      "name": "Warenkorb",
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Your cart",
+        "heading": "Warenkorb",
         "show_cart_items_count": true,
         "cart_button_label": "View cart",
         "upsell_heading": "Upsell products",

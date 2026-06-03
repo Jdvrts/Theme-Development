@@ -43,6 +43,7 @@
       "blocks": {
         "newsletter": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "heading": "Newsletter",
             "text": "Subscribe to our newsletter for exclusive updates, style tips, and special offers - straight to your inbox.",
@@ -54,14 +55,14 @@
         "menu": {
           "type": "menu",
           "settings": {
-            "menu_heading": "Support",
+            "menu_heading": "Service",
             "menu": "footer"
           }
         },
         "menu_dXAxfc": {
           "type": "menu",
           "settings": {
-            "menu_heading": "Collections",
+            "menu_heading": "Kollektionen",
             "menu": "main-menu"
           }
         },
@@ -69,10 +70,10 @@
           "type": "contact",
           "settings": {
             "show_socials": true,
-            "heading": "Contact",
-            "email_text": "<a href=\"mailto:support@store.com\" title=\"mailto:support@store.com\">support@store.com</a>",
-            "phone_text": "<a href=\"tel:+12345678910\" title=\"tel:+12345678910\">+12345678910</a>",
-            "additional_text": "Monday - Friday, 9 am - 9 pm"
+            "heading": "Kontakt",
+            "email_text": "<a href=\"mailto:support@store.com\" title=\"mailto:support@store.com\">post@fraeuleinwunder-hamburg.de</a>",
+            "phone_text": "<a href=\"tel:+12345678910\" title=\"tel:+12345678910\">030 6585 0776</a>",
+            "additional_text": "Montag bis Freitag - 9:00 bis 17:00"
           }
         }
       },
@@ -83,6 +84,7 @@
         "contact_6cUjxD"
       ],
       "settings": {
+        "logo_image": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",
         "logo_image_width": 150,
         "copyright_text": "Copyright © %date%.",
         "is_show_payment_methods": false,
