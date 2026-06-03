@@ -112,7 +112,7 @@
         "collection_diHMBL"
       ],
       "custom_css": [
-        "collection-card{}"
+        "collection-card {align-self: center}"
       ],
       "name": "Collection list",
       "settings": {
