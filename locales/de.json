@@ -19,8 +19,9 @@
 			"video_mute": "Video ohne Ton",
 			"video_sound": "Sound video",
 			"unit_price_separator": "pro",
+			"scroll_to_top": "Nach oben scrollen",
 			"link_messages": {
-				"link_to_home_page": "Link zur Home page"
+			"link_to_home_page": "Link zur Home page",
 			},
 			"slider": {
 				"prev_slide_message": "Vorherige Folie",
