@@ -365,15 +365,6 @@
             "offset_bottom_mobile": 8
           }
         },
-        "quantity": {
-          "type": "quantity",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "add_to_cart": {
           "type": "add_to_cart",
           "settings": {
@@ -433,7 +424,6 @@
         "sku",
         "options",
         "price",
-        "quantity",
         "add_to_cart",
         "pickup_availability",
         "drawers",
