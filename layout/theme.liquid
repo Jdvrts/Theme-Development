@@ -140,3 +140,65 @@
 	</body>
 
 </html>
+
+```css
+/* Shopify theme button styles
+	 - Rounded corners
+	 - Font size controlled by theme setting
+	 - ::after color controlled by theme setting
+	 Drop this into your theme stylesheet (e.g. theme.css.liquid)
+*/
+
+:root {
+	/* Liquid theme settings with defaults */
+	--button-radius: {{ settings.button_radius | default: 6 }}px;
+	--button-font-size: {{ settings.button_font_size | default: 16 }}px;
+	--button-bg: {{ settings.button_color | default: '#007bff' }};
+	--button-after-color: {{ settings.button_after_color | default: '#0056b3' }};
+}
+
+.btn, .button {
+	display: inline-block;
+	padding: 0.6em 1.2em;
+	font-size: var(--button-font-size);
+	background: var(--button-bg);
+	color: #fff;
+	border: none;
+	border-radius: var(--button-radius);
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.btn::after, .button::after {
+	/* decorative overlay whose color comes from theme setting */
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	background: var(--button-after-color);
+	opacity: 0.08;
+	pointer-events: none;
+	transition: opacity .15s ease, transform .15s ease;
+	z-index: 0;
+}
+
+.btn > * , .button > * { position: relative; z-index: 1; }
+
+.btn:hover::after, .button:hover::after {
+	opacity: 0.14;
+	transform: scale(1.02);
+}
+
+.btn:active, .button:active { transform: translateY(1px); }
+
+/* Example usage in Liquid: add to settings_schema.json
+	 {"type":"range","id":"button_radius","min":0,"max":50,"step":1}
+	 {"type":"number","id":"button_font_size","min":10,"max":36}
+	 {"type":"color","id":"button_color"}
+	 {"type":"color","id":"button_after_color"}
+*/
+```
+
