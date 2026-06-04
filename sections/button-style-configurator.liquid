@@ -1,0 +1,223 @@
+{% comment %}
+  Button Style Configurator — footer section
+  No visible storefront output. Injects CSS only.
+{% endcomment %}
+
+<style>
+  :root {
+    --btn-radius: {{ section.settings.btn_radius }}px;
+    --btn-bg: {{ section.settings.btn_bg }};
+    --btn-bg-hover: {{ section.settings.btn_bg_hover }};
+    --btn-color: {{ section.settings.btn_color }};
+    --btn-color-hover: {{ section.settings.btn_color_hover }};
+    --btn-border-width: {{ section.settings.btn_border_width }}px;
+    --btn-border-color: {{ section.settings.btn_border_color }};
+    --btn-border-color-hover: {{ section.settings.btn_border_color_hover }};
+    --btn-after-color: {{ section.settings.btn_after_color }};
+    --btn-after-opacity: {{ section.settings.btn_after_opacity }};
+
+    --btn-sec-bg: {{ section.settings.btn_sec_bg }};
+    --btn-sec-bg-hover: {{ section.settings.btn_sec_bg_hover }};
+    --btn-sec-color: {{ section.settings.btn_sec_color }};
+    --btn-sec-color-hover: {{ section.settings.btn_sec_color_hover }};
+    --btn-sec-border-color: {{ section.settings.btn_sec_border_color }};
+    --btn-sec-border-color-hover: {{ section.settings.btn_sec_border_color_hover }};
+  }
+
+  /* ── Primary buttons ── */
+  .btn,
+  .button,
+  button:not(.btn--secondary):not([class*="secondary"]),
+  [type="submit"]:not(.btn--secondary) {
+    border-radius: var(--btn-radius) !important;
+    background-color: var(--btn-bg) !important;
+    color: var(--btn-color) !important;
+    border-width: var(--btn-border-width) !important;
+    border-style: solid !important;
+    border-color: var(--btn-border-color) !important;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn:hover,
+  .button:hover,
+  button:not(.btn--secondary):not([class*="secondary"]):hover,
+  [type="submit"]:not(.btn--secondary):hover {
+    background-color: var(--btn-bg-hover) !important;
+    color: var(--btn-color-hover) !important;
+    border-color: var(--btn-border-color-hover) !important;
+  }
+
+  /* ── ::after overlay (ripple / shine effect) ── */
+  .btn::after,
+  .button::after,
+  button:not(.btn--secondary):not([class*="secondary"])::after,
+  [type="submit"]:not(.btn--secondary)::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--btn-after-color);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+  }
+
+  .btn:hover::after,
+  .button:hover::after,
+  button:not(.btn--secondary):not([class*="secondary"]):hover::after,
+  [type="submit"]:not(.btn--secondary):hover::after {
+    opacity: var(--btn-after-opacity);
+  }
+
+  /* ── Secondary buttons ── */
+  .btn--secondary,
+  [class*="secondary"] {
+    border-radius: var(--btn-radius) !important;
+    background-color: var(--btn-sec-bg) !important;
+    color: var(--btn-sec-color) !important;
+    border-width: var(--btn-border-width) !important;
+    border-style: solid !important;
+    border-color: var(--btn-sec-border-color) !important;
+  }
+
+  .btn--secondary:hover,
+  [class*="secondary"]:hover {
+    background-color: var(--btn-sec-bg-hover) !important;
+    color: var(--btn-sec-color-hover) !important;
+    border-color: var(--btn-sec-border-color-hover) !important;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Button Style Configurator",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "range",
+      "id": "btn_radius",
+      "label": "Border radius (px)",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "btn_border_width",
+      "label": "Border stroke width (px)",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Primary Button"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_hover",
+      "label": "Background color — hover",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "btn_color_hover",
+      "label": "Text color — hover",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "btn_border_color",
+      "label": "Border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_border_color_hover",
+      "label": "Border color — hover",
+      "default": "#333333"
+    },
+    {
+      "type": "header",
+      "content": "Primary Button — ::after overlay"
+    },
+    {
+      "type": "color",
+      "id": "btn_after_color",
+      "label": "::after color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "btn_after_opacity",
+      "label": "::after opacity on hover",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Secondary Button"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_bg",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_bg_hover",
+      "label": "Background color — hover",
+      "default": "#f0f0f0"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_color_hover",
+      "label": "Text color — hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_border_color",
+      "label": "Border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_sec_border_color_hover",
+      "label": "Border color — hover",
+      "default": "#333333"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Button Style Configurator"
+    }
+  ]
+}
+{% endschema %}
