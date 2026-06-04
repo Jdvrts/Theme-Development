@@ -74,7 +74,8 @@
 			"breadcrumbs_name": "Suche",
 			"search_submit_button": "Suche",
 			"search_submit_button_aria_label": "Suchanfrage stellen",
-			"search_input_placeholder": "Wonach suchen Sie?"
+			"search_input_placeholder": "Wonach suchen Sie?",
+			"results_with_cont": "Ergebnisse mit Inh"
 		},
 		"predictive_search": {
 			"title": "Suche",
