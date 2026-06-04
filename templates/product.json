@@ -228,37 +228,12 @@
         "ai_gen_block_9b42b21_yBRgCV"
       ],
       "settings": {}
-    },
-    "button_style_configurator_mNLJdG": {
-      "type": "button-style-configurator",
-      "name": "Button Style Configurator",
-      "settings": {
-        "atc_border_radius": 4,
-        "atc_border_radius_unit": "px",
-        "atc_bg_color": "#1a1a1a",
-        "atc_bg_hover_color": "#333333",
-        "atc_text_color": "#ffffff",
-        "atc_text_hover_color": "#ffffff",
-        "atc_border_width": 0,
-        "atc_border_color": "#1a1a1a",
-        "atc_border_hover_color": "#333333",
-        "bn_border_radius": 4,
-        "bn_border_radius_unit": "px",
-        "bn_bg_color": "#ffffff",
-        "bn_bg_hover_color": "#f0f0f0",
-        "bn_text_color": "#1a1a1a",
-        "bn_text_hover_color": "#1a1a1a",
-        "bn_border_width": 0.1,
-        "bn_border_color": "#1a1a1a",
-        "bn_border_hover_color": "#333333"
-      }
     }
   },
   "order": [
     "product-template",
     "product-recommendations",
     "recently-viewed",
-    "17775634770ba24d73",
-    "button_style_configurator_mNLJdG"
+    "17775634770ba24d73"
   ]
 }
