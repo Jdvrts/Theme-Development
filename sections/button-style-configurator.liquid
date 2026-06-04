@@ -1,218 +1,361 @@
 {% comment %}
-  Button Style Configurator — footer section
-  No visible storefront output. Injects CSS only.
+  Button Style Configurator
+  Footer section — no storefront output, pure style injection.
+  Targets: Add to Cart + Buy Now buttons in the Allure theme (UTD) v1.3.2
+  Strategy:
+    1. Allure-specific selectors (product-form__cart-submit, product__buy-now, etc.)
+    2. Broad OS 2.0 fallbacks (product-form__submit, etc.)
+    3. JS text-content sweep for any buttons whose label matches "add to cart" / "buy now"
+       — catches any selector UTD updates in future versions
 {% endcomment %}
 
+{%- liquid
+  assign atc_radius      = section.settings.atc_border_radius | default: 4
+  assign atc_radius_unit = section.settings.atc_border_radius_unit | default: 'px'
+  assign atc_bg          = section.settings.atc_bg_color
+  assign atc_bg_hover    = section.settings.atc_bg_hover_color
+  assign atc_text        = section.settings.atc_text_color
+  assign atc_text_hover  = section.settings.atc_text_hover_color
+  assign atc_border_w    = section.settings.atc_border_width | default: 0
+  assign atc_border_c    = section.settings.atc_border_color
+  assign atc_border_h    = section.settings.atc_border_hover_color
+
+  assign bn_radius       = section.settings.bn_border_radius | default: 4
+  assign bn_radius_unit  = section.settings.bn_border_radius_unit | default: 'px'
+  assign bn_bg           = section.settings.bn_bg_color
+  assign bn_bg_hover     = section.settings.bn_bg_hover_color
+  assign bn_text         = section.settings.bn_text_color
+  assign bn_text_hover   = section.settings.bn_text_hover_color
+  assign bn_border_w     = section.settings.bn_border_width | default: 0
+  assign bn_border_c     = section.settings.bn_border_color
+  assign bn_border_h     = section.settings.bn_border_hover_color
+-%}
+
 <style>
+  /* ─── CSS custom properties ─── */
   :root {
-    --btn-radius: {{ section.settings.btn_radius }}px;
-    --btn-bg: {{ section.settings.btn_bg }};
-    --btn-bg-hover: {{ section.settings.btn_bg_hover }};
-    --btn-color: {{ section.settings.btn_color }};
-    --btn-color-hover: {{ section.settings.btn_color_hover }};
-    --btn-border-width: {{ section.settings.btn_border_width }}px;
-    --btn-border-color: {{ section.settings.btn_border_color }};
-    --btn-border-color-hover: {{ section.settings.btn_border_color_hover }};
-    --btn-after-color: {{ section.settings.btn_after_color }};
-    --btn-after-opacity: {{ section.settings.btn_after_opacity }};
+    --btn-atc-bg:           {{ atc_bg }};
+    --btn-atc-bg-hover:     {{ atc_bg_hover }};
+    --btn-atc-text:         {{ atc_text }};
+    --btn-atc-text-hover:   {{ atc_text_hover }};
+    --btn-atc-radius:       {{ atc_radius }}{{ atc_radius_unit }};
+    --btn-atc-border-width: {{ atc_border_w }}em;
+    --btn-atc-border-color: {{ atc_border_c }};
+    --btn-atc-border-hover: {{ atc_border_h }};
 
-    --btn-sec-bg: {{ section.settings.btn_sec_bg }};
-    --btn-sec-bg-hover: {{ section.settings.btn_sec_bg_hover }};
-    --btn-sec-color: {{ section.settings.btn_sec_color }};
-    --btn-sec-color-hover: {{ section.settings.btn_sec_color_hover }};
-    --btn-sec-border-color: {{ section.settings.btn_sec_border_color }};
-    --btn-sec-border-color-hover: {{ section.settings.btn_sec_border_color_hover }};
+    --btn-bn-bg:           {{ bn_bg }};
+    --btn-bn-bg-hover:     {{ bn_bg_hover }};
+    --btn-bn-text:         {{ bn_text }};
+    --btn-bn-text-hover:   {{ bn_text_hover }};
+    --btn-bn-radius:       {{ bn_radius }}{{ bn_radius_unit }};
+    --btn-bn-border-width: {{ bn_border_w }}em;
+    --btn-bn-border-color: {{ bn_border_c }};
+    --btn-bn-border-hover: {{ bn_border_h }};
   }
 
-  /* ── Primary buttons ── */
-  .btn,
-  .button,
-  button:not(.btn--secondary):not([class*="secondary"]),
-  [type="submit"]:not(.btn--secondary) {
-    border-radius: var(--btn-radius) !important;
-    background-color: var(--btn-bg) !important;
-    color: var(--btn-color) !important;
-    border-width: var(--btn-border-width) !important;
-    border-style: solid !important;
-    border-color: var(--btn-border-color) !important;
-    position: relative;
-    overflow: hidden;
+  /* ════════════════════════════════════════
+     ADD TO CART — Allure (UTD) v1.3.2
+     Allure-specific selectors first, then
+     common OS 2.0 fallbacks.
+     JS sweep below handles any edge cases.
+  ════════════════════════════════════════ */
+
+  /* Allure (UTD) known selectors */
+  .product-form__cart-submit,
+  .product__add-to-cart,
+  .product-form__add-to-cart,
+  [data-action="add-to-cart"],
+  /* OS 2.0 / Dawn-derived fallbacks */
+  .product-form__submit:not([name="goto_pp"]):not(.shopify-payment-button__button),
+  form[action="/cart/add"] [type="submit"],
+  /* Quick-buy card buttons */
+  .quick-add__submit,
+  .card__action-button[data-action*="cart"] {
+    background-color: var(--btn-atc-bg) !important;
+    color:            var(--btn-atc-text) !important;
+    border-radius:    var(--btn-atc-radius) !important;
+    border-width:     var(--btn-atc-border-width) !important;
+    border-style:     solid !important;
+    border-color:     var(--btn-atc-border-color) !important;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   }
 
-  .btn:hover,
-  .button:hover,
-  button:not(.btn--secondary):not([class*="secondary"]):hover,
-  [type="submit"]:not(.btn--secondary):hover {
-    background-color: var(--btn-bg-hover) !important;
-    color: var(--btn-color-hover) !important;
-    border-color: var(--btn-border-color-hover) !important;
+  .product-form__cart-submit:hover,
+  .product__add-to-cart:hover,
+  .product-form__add-to-cart:hover,
+  [data-action="add-to-cart"]:hover,
+  .product-form__submit:not([name="goto_pp"]):not(.shopify-payment-button__button):hover,
+  form[action="/cart/add"] [type="submit"]:hover,
+  .quick-add__submit:hover,
+  .card__action-button[data-action*="cart"]:hover {
+    background-color: var(--btn-atc-bg-hover) !important;
+    color:            var(--btn-atc-text-hover) !important;
+    border-color:     var(--btn-atc-border-hover) !important;
   }
 
-  /* ── ::after overlay (ripple / shine effect) ── */
-  .btn::after,
-  .button::after,
-  button:not(.btn--secondary):not([class*="secondary"])::after,
-  [type="submit"]:not(.btn--secondary)::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: var(--btn-after-color);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    pointer-events: none;
+  /* ════════════════════════════════════════
+     BUY NOW — Allure (UTD) v1.3.2
+     Avoids touching Shopify's accelerated
+     checkout shadow DOM buttons (Shop Pay etc).
+  ════════════════════════════════════════ */
+
+  /* Allure (UTD) known selectors */
+  .product__buy-now,
+  .product-form__buy-now,
+  [data-action="buy-now"],
+  /* OS 2.0 fallbacks */
+  .product-form__submit[name="goto_pp"],
+  .shopify-payment-button__button--unbranded {
+    background-color: var(--btn-bn-bg) !important;
+    color:            var(--btn-bn-text) !important;
+    border-radius:    var(--btn-bn-radius) !important;
+    border-width:     var(--btn-bn-border-width) !important;
+    border-style:     solid !important;
+    border-color:     var(--btn-bn-border-color) !important;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   }
 
-  .btn:hover::after,
-  .button:hover::after,
-  button:not(.btn--secondary):not([class*="secondary"]):hover::after,
-  [type="submit"]:not(.btn--secondary):hover::after {
-    opacity: var(--btn-after-opacity);
+  .product__buy-now:hover,
+  .product-form__buy-now:hover,
+  [data-action="buy-now"]:hover,
+  .product-form__submit[name="goto_pp"]:hover,
+  .shopify-payment-button__button--unbranded:hover {
+    background-color: var(--btn-bn-bg-hover) !important;
+    color:            var(--btn-bn-text-hover) !important;
+    border-color:     var(--btn-bn-border-hover) !important;
   }
 
-  /* ── Secondary buttons ── */
-  .btn--secondary,
-  [class*="secondary"] {
-    border-radius: var(--btn-radius) !important;
-    background-color: var(--btn-sec-bg) !important;
-    color: var(--btn-sec-color) !important;
-    border-width: var(--btn-border-width) !important;
-    border-style: solid !important;
-    border-color: var(--btn-sec-border-color) !important;
+  /* JS-stamped class targets (applied by the sweep below) */
+  .utd-btn--atc {
+    background-color: var(--btn-atc-bg) !important;
+    color:            var(--btn-atc-text) !important;
+    border-radius:    var(--btn-atc-radius) !important;
+    border-width:     var(--btn-atc-border-width) !important;
+    border-style:     solid !important;
+    border-color:     var(--btn-atc-border-color) !important;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   }
-
-  .btn--secondary:hover,
-  [class*="secondary"]:hover {
-    background-color: var(--btn-sec-bg-hover) !important;
-    color: var(--btn-sec-color-hover) !important;
-    border-color: var(--btn-sec-border-color-hover) !important;
+  .utd-btn--atc:hover {
+    background-color: var(--btn-atc-bg-hover) !important;
+    color:            var(--btn-atc-text-hover) !important;
+    border-color:     var(--btn-atc-border-hover) !important;
+  }
+  .utd-btn--bn {
+    background-color: var(--btn-bn-bg) !important;
+    color:            var(--btn-bn-text) !important;
+    border-radius:    var(--btn-bn-radius) !important;
+    border-width:     var(--btn-bn-border-width) !important;
+    border-style:     solid !important;
+    border-color:     var(--btn-bn-border-color) !important;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .utd-btn--bn:hover {
+    background-color: var(--btn-bn-bg-hover) !important;
+    color:            var(--btn-bn-text-hover) !important;
+    border-color:     var(--btn-bn-border-hover) !important;
   }
 </style>
+
+<script>
+(function () {
+  // Text patterns to match — covers translated storefronts too if needed
+  var ATC_PATTERN = /add\s+to\s+cart|add\s+to\s+bag/i;
+  var BN_PATTERN  = /buy\s+(it\s+)?now/i;
+
+  function sweep() {
+    document.querySelectorAll(
+      'button, [type="submit"], [role="button"], a.btn, a.button'
+    ).forEach(function (el) {
+      // Skip branded accelerated checkout (Shop Pay, PayPal, etc. — in shadow DOM anyway)
+      if (
+        el.closest('shopify-accelerated-checkout') ||
+        el.closest('.shopify-payment-button__button--branded') ||
+        el.dataset.utdSwept
+      ) return;
+
+      var label = (el.innerText || el.textContent || el.getAttribute('aria-label') || '').trim();
+      if (ATC_PATTERN.test(label)) {
+        el.classList.add('utd-btn--atc');
+        el.dataset.utdSwept = '1';
+      } else if (BN_PATTERN.test(label)) {
+        el.classList.add('utd-btn--bn');
+        el.dataset.utdSwept = '1';
+      }
+    });
+  }
+
+  // Run once on load, then watch for dynamic section/modal renders
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', sweep);
+  } else {
+    sweep();
+  }
+
+  // Re-sweep when Allure loads quick-view modals or cart drawers
+  var observer = new MutationObserver(function (mutations) {
+    for (var m of mutations) {
+      if (m.addedNodes.length) { sweep(); break; }
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
 
 {% schema %}
 {
   "name": "Button Style Configurator",
+  "tag": "div",
+  "class": "button-style-configurator",
   "settings": [
+
     {
       "type": "header",
-      "content": "General"
+      "content": "Add to Cart button"
+    },
+    {
+      "type": "paragraph",
+      "content": "Styles all Add to Cart buttons across the Allure theme — product pages, quick-view modals, and collection cards."
     },
     {
       "type": "range",
-      "id": "btn_radius",
-      "label": "Border radius (px)",
+      "id": "atc_border_radius",
+      "label": "Border radius",
       "min": 0,
       "max": 50,
       "step": 1,
       "default": 4
     },
     {
-      "type": "range",
-      "id": "btn_border_width",
-      "label": "Border stroke width (px)",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 1
-    },
-    {
-      "type": "header",
-      "content": "Primary Button"
+      "type": "select",
+      "id": "atc_border_radius_unit",
+      "label": "Border radius unit",
+      "options": [
+        { "value": "px", "label": "px" },
+        { "value": "%",  "label": "%" }
+      ],
+      "default": "px"
     },
     {
       "type": "color",
-      "id": "btn_bg",
-      "label": "Background color",
-      "default": "#000000"
+      "id": "atc_bg_color",
+      "label": "Background colour",
+      "default": "#1a1a1a"
     },
     {
       "type": "color",
-      "id": "btn_bg_hover",
-      "label": "Background color — hover",
+      "id": "atc_bg_hover_color",
+      "label": "Background colour (hover)",
       "default": "#333333"
     },
     {
       "type": "color",
-      "id": "btn_color",
-      "label": "Text color",
+      "id": "atc_text_color",
+      "label": "Text colour",
       "default": "#ffffff"
     },
     {
       "type": "color",
-      "id": "btn_color_hover",
-      "label": "Text color — hover",
-      "default": "#ffffff"
-    },
-    {
-      "type": "color",
-      "id": "btn_border_color",
-      "label": "Border color",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "btn_border_color_hover",
-      "label": "Border color — hover",
-      "default": "#333333"
-    },
-    {
-      "type": "header",
-      "content": "Primary Button — ::after overlay"
-    },
-    {
-      "type": "color",
-      "id": "btn_after_color",
-      "label": "::after color",
+      "id": "atc_text_hover_color",
+      "label": "Text colour (hover)",
       "default": "#ffffff"
     },
     {
       "type": "range",
-      "id": "btn_after_opacity",
-      "label": "::after opacity on hover",
+      "id": "atc_border_width",
+      "label": "Border stroke width (em)",
       "min": 0,
-      "max": 1,
+      "max": 0.5,
       "step": 0.1,
-      "default": 1
-    },
-    {
-      "type": "header",
-      "content": "Secondary Button"
+      "default": 0,
+      "unit": "em"
     },
     {
       "type": "color",
-      "id": "btn_sec_bg",
-      "label": "Background color",
+      "id": "atc_border_color",
+      "label": "Border colour",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "atc_border_hover_color",
+      "label": "Border colour (hover)",
+      "default": "#333333"
+    },
+
+    {
+      "type": "header",
+      "content": "Buy Now button"
+    },
+    {
+      "type": "paragraph",
+      "content": "Styles the Buy Now button on product pages. Note: branded accelerated checkout buttons (Shop Pay, PayPal, etc.) live in a shadow DOM and cannot be styled from here."
+    },
+    {
+      "type": "range",
+      "id": "bn_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "bn_border_radius_unit",
+      "label": "Border radius unit",
+      "options": [
+        { "value": "px", "label": "px" },
+        { "value": "%",  "label": "%" }
+      ],
+      "default": "px"
+    },
+    {
+      "type": "color",
+      "id": "bn_bg_color",
+      "label": "Background colour",
       "default": "#ffffff"
     },
     {
       "type": "color",
-      "id": "btn_sec_bg_hover",
-      "label": "Background color — hover",
+      "id": "bn_bg_hover_color",
+      "label": "Background colour (hover)",
       "default": "#f0f0f0"
     },
     {
       "type": "color",
-      "id": "btn_sec_color",
-      "label": "Text color",
-      "default": "#000000"
+      "id": "bn_text_color",
+      "label": "Text colour",
+      "default": "#1a1a1a"
     },
     {
       "type": "color",
-      "id": "btn_sec_color_hover",
-      "label": "Text color — hover",
-      "default": "#000000"
+      "id": "bn_text_hover_color",
+      "label": "Text colour (hover)",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "range",
+      "id": "bn_border_width",
+      "label": "Border stroke width (em)",
+      "min": 0,
+      "max": 0.5,
+      "step": 0.1,
+      "default": 0.1,
+      "unit": "em"
     },
     {
       "type": "color",
-      "id": "btn_sec_border_color",
-      "label": "Border color",
-      "default": "#000000"
+      "id": "bn_border_color",
+      "label": "Border colour",
+      "default": "#1a1a1a"
     },
     {
       "type": "color",
-      "id": "btn_sec_border_color_hover",
-      "label": "Border color — hover",
+      "id": "bn_border_hover_color",
+      "label": "Border colour (hover)",
       "default": "#333333"
     }
+
   ],
   "presets": [
     {
