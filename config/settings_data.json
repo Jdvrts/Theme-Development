@@ -1618,7 +1618,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "button,.btn,.button,a.button,input[type=\"submit\"] {border-radius: 8px !important;}"
+      "button,.btn,.button,.paypal,input[type=\"submit\"] {border-radius: 8px !important;}"
     ]
   }
 }
