@@ -220,6 +220,7 @@ textarea {
   /* 1 */
   line-height: 1.15;
   /* 2 */
+    border-radius: 8px;
 }
 /**
  * Show the overflow in IE.
@@ -232,7 +233,6 @@ input[type=submit] {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  border-radius: 8px;
 }
 button,
 input {
