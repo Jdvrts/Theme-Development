@@ -11,10 +11,42 @@
   "sections": {
     "default-page": {
       "type": "page-template",
-      "settings": {}
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "",
+        "offset_top_desktop": 0,
+        "offset_bottom_desktop": 0,
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 0,
+        "inner_offset_top": 64,
+        "inner_offset_bottom": 64,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
+      }
+    },
+    "featured_collection_6EYbH4": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "",
+        "heading": "Featured collection",
+        "collection": "",
+        "link_label": "See all products",
+        "container_width": "inherit",
+        "offset_top_desktop": 40,
+        "offset_bottom_desktop": 40,
+        "offset_top_mobile": 25,
+        "offset_bottom_mobile": 25,
+        "inner_offset_top": 64,
+        "inner_offset_bottom": 64,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
+      }
     }
   },
   "order": [
-    "default-page"
+    "default-page",
+    "featured_collection_6EYbH4"
   ]
 }
