@@ -39,7 +39,7 @@
         "offset_bottom_desktop": 40,
         "offset_top_mobile": 25,
         "offset_bottom_mobile": 25,
-        "inner_offset_top": 64,
+        "inner_offset_top": 24,
         "inner_offset_bottom": 64,
         "inner_offset_top_mobile": 32,
         "inner_offset_bottom_mobile": 32
