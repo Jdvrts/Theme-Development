@@ -38,31 +38,9 @@
       "name": "Mobile bottom nav",
       "settings": {}
     },
-    "custom_liquid_PN6iqz": {
-      "type": "custom-liquid",
-      "name": "Custom liquid",
-      "settings": {
-        "custom_liquid": "<div style=\"height: 1px; background-color: #e5d5e1; margin: 30px 0;\"></div>",
-        "offset_top_desktop": 60,
-        "offset_bottom_desktop": 60,
-        "offset_top_mobile": 30,
-        "offset_bottom_mobile": 30
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "disabled": true,
-          "settings": {
-            "heading": "Newsletter",
-            "text": "Subscribe to our newsletter for exclusive updates, style tips, and special offers - straight to your inbox.",
-            "input_placeholder": "Enter email address...",
-            "button_label": "Subscribe",
-            "success_message": "Thanks for subscribing"
-          }
-        },
         "menu": {
           "type": "menu",
           "settings": {
@@ -89,10 +67,12 @@
         }
       },
       "block_order": [
-        "newsletter",
         "menu",
         "menu_dXAxfc",
         "contact_6cUjxD"
+      ],
+      "custom_css": [
+        ".footer {border-top: 0.02rem solid var(--color-border-thirdly);}"
       ],
       "settings": {
         "logo_image": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",
@@ -111,7 +91,6 @@
   },
   "order": [
     "blocks_QWGNFd",
-    "custom_liquid_PN6iqz",
     "footer"
   ]
 }
