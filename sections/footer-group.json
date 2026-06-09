@@ -56,6 +56,7 @@
       "block_order": [
         "ai_gen_block_9d413de_wGC8cc"
       ],
+      "disabled": true,
       "name": "Mobile bottom nav",
       "settings": {}
     },
