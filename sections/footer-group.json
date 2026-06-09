@@ -46,7 +46,7 @@
             "label_size": 10,
             "padding": 12,
             "background_color": "#ffffff",
-            "border_color": "#a1a1a1",
+            "border_color": "#A1A1A1",
             "icon_color": "#000000",
             "icon_hover_color": "#666666"
           },
@@ -56,20 +56,12 @@
       "block_order": [
         "ai_gen_block_9d413de_wGC8cc"
       ],
-      "disabled": true,
       "name": "Mobile bottom nav",
       "settings": {}
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "menu_z37TKc": {
-          "type": "menu",
-          "settings": {
-            "menu_heading": "Stores",
-            "menu": "footer-professional"
-          }
-        },
         "menu": {
           "type": "menu",
           "settings": {
@@ -90,13 +82,11 @@
             "show_socials": true,
             "heading": "Kontakt",
             "email_text": "<a href=\"mailto:post@fraeuleinwunder-hamburg.de\" title=\"mailto:post@fraeuleinwunder-hamburg.de\">post@fraeuleinwunder-hamburg.de</a>",
-            "phone_text": "<a href=\"tel:+030 6585 0776\" title=\"tel:+030 6585 0776\">030 6585 0776</a>",
-            "additional_text": "Montag bis Freitag - 9:00 bis 17:00"
-          }
+            "phone_text": "<a href=\"tel:030 6585 0776\" title=\"tel:030 6585 0776\">030 6585 0776</a>",
+            "additional_text": "Montag bis Freitag - 9:00 bis 17:00 <a href=\"/pages/atelier-showroom\">Fur B2B clients</a>"          }
         }
       },
       "block_order": [
-        "menu_z37TKc",
         "menu",
         "menu_dXAxfc",
         "contact_6cUjxD"
