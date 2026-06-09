@@ -11,6 +11,27 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "17810132549d165ce1": {
+      "type": "apps",
+      "blocks": {
+        "omnisend_email_marketing_sms_embedded_form_p9gxix": {
+          "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
+          "settings": {
+            "form_id": "692f13625000977f50421f74"
+          }
+        }
+      },
+      "block_order": [
+        "omnisend_email_marketing_sms_embedded_form_p9gxix"
+      ],
+      "settings": {
+        "container_width": "inherit",
+        "offset_top_desktop": 25,
+        "offset_bottom_desktop": 25,
+        "offset_top_mobile": 25,
+        "offset_bottom_mobile": 25
+      }
+    },
     "blocks_QWGNFd": {
       "type": "_blocks",
       "blocks": {
@@ -90,6 +111,7 @@
     }
   },
   "order": [
+    "17810132549d165ce1",
     "blocks_QWGNFd",
     "footer"
   ]
