@@ -2024,7 +2024,7 @@ select {
 .quantity {
   position: relative;
   display: inline-flex;
-  border: 1px solid var(--color-border-secondary);
+  //border: 1px solid var(--color-border-secondary);//
   color: var(--color-text-primary, #000000);
 }
 .quantity .quantity__button {
@@ -2784,8 +2784,9 @@ body.rtl .drawer.drawer--left {
   margin-top: 5px;
 }
 .price {
-  font-size: calc(var(--body-font-size) * 0.875);
+  font-size: calc(var(--body-font-size) * 1.1);
   color: var(--color-text-primary);
+  padding-top: calc(var(--body-font-size) * 0.8);
 }
 .price .price__sale, .price.price--on-sale .price__regular {
   display: none;
