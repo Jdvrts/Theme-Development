@@ -81,8 +81,8 @@
           "settings": {
             "show_socials": true,
             "heading": "Kontakt",
-            "email_text": "<a href=\"mailto:support@store.com\" title=\"mailto:support@store.com\">post@fraeuleinwunder-hamburg.de</a>",
-            "phone_text": "<a href=\"tel:+12345678910\" title=\"tel:+12345678910\">030 6585 0776</a>",
+            "email_text": "<a href=\"mailto:post@fraeuleinwunder-hamburg.de\" title=\"mailto:post@fraeuleinwunder-hamburg.de\">post@fraeuleinwunder-hamburg.de</a>",
+            "phone_text": "<a href=\"tel:+030 6585 0776\" title=\"tel:+030 6585 0776\">030 6585 0776</a>",
             "additional_text": "Montag bis Freitag - 9:00 bis 17:00"
           }
         }
