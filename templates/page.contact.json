@@ -68,7 +68,7 @@
           "type": "contact_info",
           "settings": {
             "item_heading": "Address:",
-            "item_text": "<a href=\"https://www.google.com/maps\" title=\"https://www.google.com/maps\">2205 Rosewood Lane</a>"
+            "item_text": "<a href=\"https://www.google.com/maps/place/Fr%C3%A4ulein+Wunder/@53.5622178,9.9635319,17z/data=!4m6!3m5!1s0x47b18f425d30db53:0xa7ec9902674d2b9b!8m2!3d53.5622178!4d9.9635319!16s%2Fg%2F1tj56v7d\" target=\"_blank\" title=\"Google Maps Pin Drop\">Susannenstraße 13, 20357 Altona</a>"
           }
         },
         "location_2": {
