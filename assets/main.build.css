@@ -2786,6 +2786,8 @@ body.rtl .drawer.drawer--left {
 .price {
   font-size: calc(var(--body-font-size) * 1.1);
   text-decoration: underline;
+  text-decoration-color: blue;
+  text-underline-offset: 20px;
   color: var(--color-text-primary);
   padding-top: calc(var(--body-font-size) * 1.2);
 }
