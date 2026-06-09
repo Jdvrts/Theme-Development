@@ -2784,7 +2784,7 @@ body.rtl .drawer.drawer--left {
   margin-top: 5px;
 }
 .price {
-  font-size: calc(var(--body-font-size) * 0.99);
+  font-size: calc(var(--body-font-size) * 1.2);
   color: var(--color-text-primary);
   padding: calc(var(--body-font-size) * 0.42);
   color: pink !important;
