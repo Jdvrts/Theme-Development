@@ -40,7 +40,7 @@
   align-items: flex-start;
   width: calc(100% - 8px);
   padding: 24px;
-  background-color: rgba(0, 0, 0, 0.28);
+  background-color: rgba(0, 0, 50, 0.28);
   color: #fff;
   gap: 16px;
   backdrop-filter: blur(32px);
