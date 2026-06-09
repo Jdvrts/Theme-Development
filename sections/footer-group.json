@@ -81,7 +81,7 @@
           "settings": {
             "show_socials": true,
             "heading": "Kontakt",
-            "email_text": "post@fraeuleinwunder-hamburg.de",
+            "email_text": "<a href=\"mailto:post@fraeuleinwunder-hamburg.de\" title=\"mailto:post@fraeuleinwunder-hamburg.de\">post@fraeuleinwunder-hamburg.de</a>",
             "phone_text": "<a href=\"tel:030 6585 0776\" title=\"tel:030 6585 0776\">030 6585 0776 -  </a>Montag bis Freitag - 9:00 bis 17:00",
             "additional_text": "<a href=\"/pages/atelier-showroom\">Fur B2B clients</a>"
           }
