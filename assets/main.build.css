@@ -2786,7 +2786,7 @@ body.rtl .drawer.drawer--left {
 .price {
   font-size: calc(var(--body-font-size) * 0.875);
   color: var(--color-text-primary);
-  padding: calc(var(--body-font-size) * 0.42;
+  padding: calc(var(--body-font-size) * 0.42);
 }
 .price .price__sale, .price.price--on-sale .price__regular {
   display: none;
