@@ -2785,7 +2785,7 @@ body.rtl .drawer.drawer--left {
 }
 .price {
   font-size: calc(var(--body-font-size) * 1.1);
-  text-decoration: underline;
+  text-decoration: underline onverline;
   color: var(--color-text-primary);
   padding-top: calc(var(--body-font-size) * 0.42);
 }
