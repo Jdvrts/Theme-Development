@@ -74,7 +74,8 @@
 			"breadcrumbs_name": "Search",
 			"search_submit_button": "Search",
 			"search_submit_button_aria_label": "Submit search query",
-			"search_input_placeholder": "What are you looking for?"
+			"search_input_placeholder": "What are you looking for?",
+			"results_with_count": "Results with count?"
 		},
 		"predictive_search": {
 			"title": "Search",

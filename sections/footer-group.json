@@ -17,7 +17,7 @@
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
           "settings": {
-            "menu": "customer-account-main-menu",
+            "menu": "main-menu",
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
@@ -41,17 +41,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "disabled": true,
-          "settings": {
-            "heading": "Newsletter",
-            "text": "Subscribe to our newsletter for exclusive updates, style tips, and special offers - straight to your inbox.",
-            "input_placeholder": "Enter email address...",
-            "button_label": "Subscribe",
-            "success_message": "Thanks for subscribing"
-          }
-        },
         "menu": {
           "type": "menu",
           "settings": {
@@ -78,10 +67,12 @@
         }
       },
       "block_order": [
-        "newsletter",
         "menu",
         "menu_dXAxfc",
         "contact_6cUjxD"
+      ],
+      "custom_css": [
+        ".footer {border-top: 0.02rem solid var(--color-border-thirdly);}"
       ],
       "settings": {
         "logo_image": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",

@@ -1615,5 +1615,12 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Every button has rounded corners but not drawers/accordion */button:not(.drawer button):not([class*=\"drawer\"] button),.btn:not([class*=\"drawer\"] .btn),.button:not([class*=\"drawer\"] .button),a.button:not([class*=\"drawer\"] a.button),input[type=\"submit\"] {border-radius: 16px !important;}",
+      "/* PayPal button wrapper */.paypal-button-container,.zoid-outlet {border-radius: 8px !important; overflow: hidden !important;}",
+      "/* Shop Pay / Shopify accelerated checkout buttons */.shopify-payment-button__button,.shopify-payment-button [data-testid],.shop-pay-button-container {border-radius: 8px !important; overflow: hidden !important;}"
+    ]
   }
 }

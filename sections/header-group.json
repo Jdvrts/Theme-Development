@@ -13,20 +13,6 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "text_slide_UHRmEN": {
-          "type": "text_slide",
-          "disabled": true,
-          "settings": {
-            "text_slider": "<p>Announcement bar text</p>",
-            "discount_code": "SummerReady10",
-            "discount_label": "Copy"
-          }
-        }
-      },
-      "block_order": [
-        "text_slide_UHRmEN"
-      ],
       "disabled": true,
       "settings": {
         "layout": "ticker",
@@ -56,18 +42,18 @@
         "enable_transparent_header_mobile": true,
         "is_show_border": false,
         "is_language_selector": true,
-        "is_country_selector": true,
+        "is_country_selector": false,
         "logo": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",
         "logo_transparent": "shopify://shop_images/FW_Logo_96053805-fc3c-4228-9710-903dce8e4312.png",
         "logo_width": 75,
         "logo_position": "middle",
         "menu": "main-menu",
-        "mobile_top_menu": "",
+        "mobile_top_menu": "main-menu",
         "open_menu_type": "click",
         "make_first_lvl_clickable": false,
         "burger_menu": "",
         "hide_burger_menu_on_mobile": false,
-        "additional_menu": "",
+        "additional_menu": "main-menu",
         "show_socials": false,
         "scroll_images_direction": "bottom",
         "phone_number": "",

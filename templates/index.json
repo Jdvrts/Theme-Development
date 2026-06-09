@@ -12,7 +12,8 @@
     "banner": {
       "type": "banner",
       "custom_css": [
-        "h1,h3 {-webkit-text-stroke-width: 0.01px; -webkit-text-stroke-color: lightyellow;}"
+        "h1,h3 {-webkit-text-stroke-width: 0.01px; -webkit-text-stroke-color: lightyellow;}",
+        ".button {width: 30ch;}"
       ],
       "settings": {
         "desktop_image_height": "700px",
@@ -117,7 +118,7 @@
         "color_scheme": "",
         "heading": "",
         "show_products_count": false,
-        "container_width": "inherit",
+        "container_width": "100%",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 40,
         "offset_top_mobile": 25,
@@ -198,7 +199,7 @@
             "description": "<p>Bist du bereit für ein Glow-Up?</p>",
             "button_text": "Neue Kollektionen",
             "button_aria_label": "",
-            "button_link": "/",
+            "button_link": "shopify://collections/new-arrivals",
             "open_in_new_tab": false,
             "make_link_full_slide": false,
             "text_alignment_inside_block": "start",
@@ -225,7 +226,7 @@
             "description": "<p>Strahle, wenn die Sonne scheint</p>",
             "button_text": "SHOP NOW",
             "button_aria_label": "",
-            "button_link": "/",
+            "button_link": "shopify://collections/edelstahl",
             "open_in_new_tab": false,
             "make_link_full_slide": false,
             "text_alignment_inside_block": "start",
@@ -246,13 +247,13 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image_desktop": "shopify://shop_images/Halskette_Choker_Perlen_Anika_Model.png",
-            "heading": "Neue Halsketten",
+            "image_desktop": "shopify://shop_images/Halskette_Choker_Perlen_Paula_Model.jpg",
+            "heading": "Neue Perlen",
             "heading_size": 80,
-            "description": "<p>So farbenfroh wie du</p>",
-            "button_text": "Shop",
+            "description": "<p>So zart wie du</p>",
+            "button_text": "Shop Perlen",
             "button_aria_label": "",
-            "button_link": "shopify://collections/halsketten",
+            "button_link": "shopify://collections/perlen",
             "open_in_new_tab": false,
             "make_link_full_slide": false,
             "text_alignment_inside_block": "start",
@@ -326,16 +327,6 @@
     "featured_product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-            "make_vendor_link": true,
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -374,15 +365,6 @@
             "offset_bottom_mobile": 8
           }
         },
-        "quantity": {
-          "type": "quantity",
-          "settings": {
-            "offset_top_desktop": 8,
-            "offset_bottom_desktop": 8,
-            "offset_top_mobile": 8,
-            "offset_bottom_mobile": 8
-          }
-        },
         "add_to_cart": {
           "type": "add_to_cart",
           "settings": {
@@ -413,10 +395,10 @@
             "description_drawer_title": "Description",
             "drawer_page_1": "pflegehinweise",
             "drawer_toggle_text_1": "Pflegehinweise",
-            "drawer_title_1": "Drawer 1",
+            "drawer_title_1": "Pflegehinweise",
             "drawer_page_2": "materialvorteile",
             "drawer_toggle_text_2": "Material",
-            "drawer_title_2": "Drawer 2",
+            "drawer_title_2": "Material",
             "drawer_page_3": "",
             "drawer_toggle_text_3": "Drawer 3",
             "drawer_title_3": "Drawer 3",
@@ -438,12 +420,10 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "sku",
         "options",
         "price",
-        "quantity",
         "add_to_cart",
         "pickup_availability",
         "drawers",
@@ -455,9 +435,9 @@
         "product": "set-pearlicious-perlen-und-gold",
         "media_layout": "stacked_2_col",
         "thumbnails_position": "bottom",
-        "show_thumbnails_mobile": true,
+        "show_thumbnails_mobile": false,
         "media_height": "square",
-        "image_object_fit": "cover",
+        "image_object_fit": "contain",
         "show_taxes_included": false,
         "show_pay_installments": false,
         "show_size_guide": false,
