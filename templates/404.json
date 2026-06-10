@@ -1,12 +1,36 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-	"sections": {
-		"404": {
-			"type": "404-template",
-			"settings": {
-			}
-		}
-	},
-	"order": [
-		"404"
-	]
+  "sections": {
+    "404": {
+      "type": "404-template",
+      "settings": {
+        "enable_color_scheme_inheritance": true,
+        "color_scheme": "",
+        "heading": "Hoppla! Seite nicht gefunden",
+        "text": "<p>Diese Seite scheint nicht verfügbar zu sein, aber keine Sorge. Schau dir unsere Kollektionen an und nutze unseren Rabattcode für 10%, um etwas Passendes zu finden.</p>",
+        "button_label": "10% Rabattcode",
+        "button_url": "/https://fraulein-wunder.myshopify.com/discount/Fill-up-your-cart?utm_campaign=95478c&utm_source=discount_shareable_link",
+        "button_style": "primary",
+        "offset_top_desktop": 0,
+        "offset_bottom_desktop": 0,
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 0,
+        "inner_offset_top_desktop": 64,
+        "inner_offset_bottom_desktop": 64,
+        "inner_offset_top_mobile": 32,
+        "inner_offset_bottom_mobile": 32
+      }
+    }
+  },
+  "order": [
+    "404"
+  ]
 }
