@@ -112,7 +112,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "enable_video_play_on_autoplay": false,
-        "is_zoom_enabled": false,
+        "is_zoom_enabled": true,
         "media_layout": "stacked_2_col",
         "thumbnails_position": "bottom",
         "show_thumbnails_mobile": false,
