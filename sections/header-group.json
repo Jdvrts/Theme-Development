@@ -34,7 +34,9 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        "{border-bottom: 1px solid #f1f1f1;}"
+      ],
       "settings": {
         "header_type": "static",
         "enable_transparent_header_homepage": true,
