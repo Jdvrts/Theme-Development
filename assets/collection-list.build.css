@@ -23,7 +23,7 @@
   column-gap: var(--global-gap);
 }
 .collection-list .collection-list__slider:not(.swiper-initialized) .collection-list__slider-container.collection-list__slider-container--1 {
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .collection-list .collection-list__slider:not(.swiper-initialized) .collection-list__slide {
   flex-shrink: 0;
