@@ -107,92 +107,6 @@
         "inner_offset_bottom_mobile": 25
       }
     },
-    "stores-locator": {
-      "type": "stores-locator",
-      "blocks": {
-        "store_1": {
-          "type": "store",
-          "settings": {
-            "block_title": "Sharp Threads Menswear",
-            "block_text": "Susannenstraße 13, 20357 Altona",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Mn - Sa, 11:00-20:00",
-            "google_map_api_key": "",
-            "map_query": "Susannenstra%C3%9Fe%2013,%2020357%20Altona",
-            "map_link": "https://www.google.com/maps/dir/?api=1&destination=Susannenstra%C3%9Fe%2013,%2020357%20Altona"
-          }
-        },
-        "store_2": {
-          "type": "store",
-          "settings": {
-            "block_title": "Dapper & Co. Suits",
-            "block_text": "7205 Main StreetDallas, TX 75201",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 6am - 3pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_3": {
-          "type": "store",
-          "settings": {
-            "block_title": "Elite Tailors & Suits",
-            "block_text": "3120 Sunset BlvdLos Angeles, CA 90026",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_4": {
-          "type": "store",
-          "settings": {
-            "block_title": "Prestige Men's Suits",
-            "block_text": "2587 Broadway AveNew York, NY 10025",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_bz3mep": {
-          "type": "store",
-          "settings": {
-            "block_title": "Gentleman's Choice Suits",
-            "block_text": "1460 Oakwood Blvd Miami, FL 33139",
-            "phone_text": "<a href=\"tel:(305) 555-9234\" title=\"tel:(305) 555-9234\">(305) 555-9234</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "store_1",
-        "store_2",
-        "store_3",
-        "store_4",
-        "store_bz3mep"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "title": "Our Stores",
-        "container_width": "inherit",
-        "offset_top_desktop": 40,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 60,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
     "contact-form": {
       "type": "contact-form",
       "settings": {
@@ -208,7 +122,7 @@
         "submit_label": "Send request",
         "success_message": "Thanks for contacting us. We'll get back to you as soon as possible!",
         "container_width": "inherit",
-        "offset_top_desktop": 0,
+        "offset_top_desktop": 48,
         "offset_bottom_desktop": 0,
         "offset_top_mobile": 30,
         "offset_bottom_mobile": 30,
@@ -222,7 +136,6 @@
   "order": [
     "banner",
     "store-location",
-    "stores-locator",
     "contact-form"
   ]
 }
