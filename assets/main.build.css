@@ -1051,8 +1051,7 @@ label {
   font-family: var(--button-font-family);
   font-size: var(--button-font-size);
   font-weight: 500;
-  font-size: 1.4rem;
-  color: pink;
+  font-size: 0.842rem;
   line-height: 1.6666666667;
   text-align: center;
   word-break: break-word;
