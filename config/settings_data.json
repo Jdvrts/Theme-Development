@@ -316,12 +316,12 @@
       "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4": {
         "settings": {
           "color_text_primary": "#021475",
-          "color_text_secondary": "#366ba6",
+          "color_text_secondary": "#380aa6",
           "color_text_thirdly": "#05378f",
-          "color_text_heading": "#262250",
-          "color_accent": "#8d9ba9",
-          "color_link": "#7e8bff",
-          "color_background": "#ffffff",
+          "color_text_heading": "#0f0858",
+          "color_accent": "#1362b1",
+          "color_link": "#0d53ff",
+          "color_background": "#FFFFFF",
           "color_background_secondary": "#8d9ba9",
           "color_background_popup_drawer": "#f4f4f5",
           "button_text_color_primary": "#f4f4f5",
