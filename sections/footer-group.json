@@ -81,8 +81,8 @@
           "settings": {
             "show_socials": true,
             "heading": "Kontakt",
-            "email_text": "",
-            "phone_text": "Wir sind Montag bis Freitag  von 9:00 bis 17:00 für dich da.  <a href=\"tel:030 6585 0776\" title=\"tel:030 6585 0776\">030 6585 0776</a>",
+            "email_text": "Wir sind Montag bis Freitag  von 9:00 bis 17:00 für dich da.",
+            "phone_text": "<a href=\"tel:030 6585 0776\" title=\"tel:030 6585 0776\">030 6585 0776</a>",
             "additional_text": "<a href=\"/pages/atelier-showroom\" title=\"Atelier & Showroom\">Kontakt, Showroom, B2B</a>"
           }
         }
