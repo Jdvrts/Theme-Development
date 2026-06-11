@@ -81,8 +81,8 @@
         "location_4": {
           "type": "contact_info",
           "settings": {
-            "item_heading": "Work schedule:",
-            "item_text": "Mn - Sa. 11:00-20:00"
+            "item_heading": "Öffnungszeiten",
+            "item_text": "Mo - Sa. 11:00-20:00"
           }
         }
       },
