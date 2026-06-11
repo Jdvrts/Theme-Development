@@ -1019,7 +1019,8 @@ select,
 summary,
 textarea {
   font-family: inherit;
-  touch-action: manipulation;
+  touch-action: manipulation;#
+  border-radius: 3px;
 }
 input[disabled],
 textarea[disabled],
