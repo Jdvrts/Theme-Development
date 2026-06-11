@@ -277,6 +277,10 @@
         "image-2",
         "image-3"
       ],
+      "custom_css": [
+        "h1,h3 {-webkit-text-stroke-width: 0.01px; -webkit-text-stroke-color: lightyellow;}",
+        ".button {width: 30ch;}"
+      ],
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
@@ -287,9 +291,9 @@
         "autoplay_speed": 5,
         "animation_speed": 1.2,
         "animation_type": "slide",
-        "progress_bar_color": "#ffffff",
-        "progress_bar_fill_color": "#000000",
-        "pagination_color": "#ffffff",
+        "progress_bar_color": "#f4f4f4",
+        "progress_bar_fill_color": "#0d53ff",
+        "pagination_color": "#fff021",
         "height_desktop": 100,
         "height_mobile": 100,
         "subtract_header_height": false,
