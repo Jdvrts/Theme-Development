@@ -39,7 +39,7 @@
     "color_label_primary_opacity": 50,
     "color_label_base_border": "#fd1b1b",
     "color_label_sale_percentage": "#ffffff",
-    "color_label_sale_percentage_background": "#41276b",
+    "color_label_sale_percentage_background": "#160138",
     "color_label_sale_percentage_opacity": 80,
     "is_quick_view_enabled": true,
     "image_object_fit": "cover",
