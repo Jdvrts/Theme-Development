@@ -168,14 +168,14 @@
       },
       "scheme-3": {
         "settings": {
-          "color_text_primary": "#003331",
+          "color_text_primary": "#321cd4",
           "color_text_secondary": "#5b7b7a",
           "color_text_thirdly": "#7c7c7c",
           "color_text_heading": "#003331",
           "color_accent": "#ff7a59",
           "color_link": "#006c6a",
           "color_background": "#e1f4f3",
-          "color_background_secondary": "#b8e0de",
+          "color_background_secondary": "#a89ef2",
           "color_background_popup_drawer": "#a0d0ce",
           "button_text_color_primary": "#003331",
           "button_background_color_primary": "#b8e0de",
