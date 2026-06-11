@@ -68,42 +68,34 @@
           "type": "contact_info",
           "settings": {
             "item_heading": "Address:",
-            "item_text": "<a href=\"https://www.google.com/maps/place/Fr%C3%A4ulein+Wunder/@53.5622178,9.9635319,17z/data=!4m6!3m5!1s0x47b18f425d30db53:0xa7ec9902674d2b9b!8m2!3d53.5622178!4d9.9635319!16s%2Fg%2F1tj56v7d\" target=\"_blank\" title=\"Google Maps Pin Drop\">Susannenstraße 13, 20357 Altona</a>"
+            "item_text": "<a href=\"https://www.google.com/maps/place/Fr%C3%A4ulein+Wunder/@53.5622178,9.9635319,17z/data=!4m6!3m5!1s0x47b18f425d30db53:0xa7ec9902674d2b9b!8m2!3d53.5622178!4d9.9635319!16s%2Fg%2F1tj56v7d\" target=\"_blank\" title=\"Google Maps Pin Drop\">Susannenstraße 13, 20357 Altona, Hamburg</a>"
           }
         },
         "location_2": {
           "type": "contact_info",
           "settings": {
             "item_heading": "Phone:",
-            "item_text": "<a href=\"tel:(212) 555-7823\" title=\"tel:(212) 555-7823\">(212) 555-7823</a>"
-          }
-        },
-        "location_3": {
-          "type": "contact_info",
-          "settings": {
-            "item_heading": "Email:",
-            "item_text": "<a href=\"mailto:justin@pollheim.au\" title=\"mailto:justin@pollheim.au\">justin@pollheim.au</a>"
+            "item_text": "<a href=\"tel:(040) 36193329\" title=\"tel:(040) 36193329\">(040) 36193329</a>"
           }
         },
         "location_4": {
           "type": "contact_info",
           "settings": {
             "item_heading": "Work schedule:",
-            "item_text": "Mn - Fr. 8:00-17:00"
+            "item_text": "Mn - Sa. 11:00-20:00"
           }
         }
       },
       "block_order": [
         "location_1",
         "location_2",
-        "location_3",
         "location_4"
       ],
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Still need help?",
-        "description": "<p>To live inspired, is to live a life true to your values, a life that’s meaningful, and a life of purpose. </p>",
+        "heading": "<strong>Store & Showroom</strong>",
+        "description": "<p>Inspiriert zu leben bedeutet, ein Leben zu führen, das den eigenen Werten entspricht, ein Leben, das Sinn macht, und ein Leben mit Sinn. </p>",
         "container_width": "inherit",
         "offset_top_desktop": 25,
         "offset_bottom_desktop": 25,
@@ -115,108 +107,22 @@
         "inner_offset_bottom_mobile": 25
       }
     },
-    "stores-locator": {
-      "type": "stores-locator",
-      "blocks": {
-        "store_1": {
-          "type": "store",
-          "settings": {
-            "block_title": "Sharp Threads Menswear",
-            "block_text": "1845 Lexington AveChicago, IL 60614",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 8am - 5pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_2": {
-          "type": "store",
-          "settings": {
-            "block_title": "Dapper & Co. Suits",
-            "block_text": "7205 Main StreetDallas, TX 75201",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 6am - 3pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_3": {
-          "type": "store",
-          "settings": {
-            "block_title": "Elite Tailors & Suits",
-            "block_text": "3120 Sunset BlvdLos Angeles, CA 90026",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_4": {
-          "type": "store",
-          "settings": {
-            "block_title": "Prestige Men's Suits",
-            "block_text": "2587 Broadway AveNew York, NY 10025",
-            "phone_text": "<a href=\"tel:(213) 443 6364\" title=\"tel:(213) 443 6364\">(213) 443 6364</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        },
-        "store_bz3mep": {
-          "type": "store",
-          "settings": {
-            "block_title": "Gentleman's Choice Suits",
-            "block_text": "1460 Oakwood Blvd Miami, FL 33139",
-            "phone_text": "<a href=\"tel:(305) 555-9234\" title=\"tel:(305) 555-9234\">(305) 555-9234</a>",
-            "schedule_text": "Monday - Friday, 10am - 6pm Eastern",
-            "google_map_api_key": "",
-            "map_query": "Eiffel+Tower,Paris+France",
-            "map_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "store_1",
-        "store_2",
-        "store_3",
-        "store_4",
-        "store_bz3mep"
-      ],
-      "settings": {
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
-        "title": "Our Stores",
-        "container_width": "inherit",
-        "offset_top_desktop": 40,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25,
-        "inner_offset_top": 30,
-        "inner_offset_bottom": 60,
-        "inner_offset_top_mobile": 30,
-        "inner_offset_bottom_mobile": 30
-      }
-    },
     "contact-form": {
       "type": "contact-form",
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Feel Free to Contact Us",
-        "text": "<p>Get the help you need, when you need it. Contact our support team now!</p>",
-        "terms_text": "By pressing the button <em>\"Send Request\"</em>, you confirm that you have read and are agreeing to our <strong>Terms of Use</strong> regarding the storage of the data submitted through this form.",
-        "name_placeholder": "Enter your name",
-        "email_placeholder": "Enter your Email *",
-        "phone_placeholder": "Enter your phone number",
-        "message_placeholder": "Enter your message",
-        "submit_label": "Send request",
-        "success_message": "Thanks for contacting us. We'll get back to you as soon as possible!",
+        "heading": "Zögern Sie nicht, uns zu kontaktieren",
+        "text": "<p>Holen Sie sich die Hilfe, die Sie brauchen – wann immer Sie sie brauchen. Kontaktieren Sie unser Team jetzt!</p>",
+        "terms_text": "Durch Klicken auf die Schaltfläche <em>„Anfrage senden“</em> bestätigen Sie, dass Sie unsere <strong>Datenschutz</strong> bezüglich der Speicherung der über dieses Formular übermittelten Daten gelesen haben und diesen zustimmen.",
+        "name_placeholder": "Dein Name *",
+        "email_placeholder": "Dein Email *",
+        "phone_placeholder": "Dein Telefonnummer",
+        "message_placeholder": "Geben Sie Ihre Nachricht ein",
+        "submit_label": "Anfrage senden",
+        "success_message": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns so schnell wie möglich bei Ihnen!",
         "container_width": "inherit",
-        "offset_top_desktop": 0,
+        "offset_top_desktop": 48,
         "offset_bottom_desktop": 0,
         "offset_top_mobile": 30,
         "offset_bottom_mobile": 30,
@@ -230,7 +136,6 @@
   "order": [
     "banner",
     "store-location",
-    "stores-locator",
     "contact-form"
   ]
 }
