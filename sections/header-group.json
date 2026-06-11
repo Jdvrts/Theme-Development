@@ -13,20 +13,19 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "layout": "ticker",
         "enable_autoplay": true,
         "autoplay_speed": 3,
         "text_content": "<p>Theme edited v3</p><p></p><p>Theme v4</p>",
         "ticker_hide_bullets": false,
-        "ticker_text": "<p>New customers save 10% with the code GET10</p><p>NNNNew customers save 10% with the code GET10</p><p>Neeeeew customers save 10% with the code GET10</p>",
+        "ticker_text": "<p>New customers save 10% with the code GET10</p>",
         "desktop_movement_speed": 53,
         "mobile_movement_speed": 34,
         "discount_code": "Changes made here in v3 for testing development site but not impacting main theme",
         "discount_label": "Copy",
-        "enable_color_scheme_inheritance": true,
-        "color_scheme": "",
+        "enable_color_scheme_inheritance": false,
+        "color_scheme": "scheme-3",
         "discount_text_color": "#000000",
         "discount_background_color": "#ffffff",
         "discount_border_color": "#e9e9e9"
@@ -34,16 +33,14 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        "{border-bottom: 1px solid #f1f1f1;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "header_type": "static",
+        "header_type": "sticky_hide",
         "enable_transparent_header_homepage": true,
         "enable_transparent_header_collection": false,
         "enable_transparent_header_mobile": true,
-        "is_show_border": false,
-        "is_language_selector": true,
+        "is_show_border": true,
+        "is_language_selector": false,
         "is_country_selector": false,
         "logo": "shopify://shop_images/FW_Logo_525906dc-88f2-47c4-8179-f453187eb108.png",
         "logo_transparent": "shopify://shop_images/fw_black_on_transp_Logo.png",
@@ -68,10 +65,10 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "scheme-f2af9b18-7ca9-438e-8c26-5477aedd96a4",
         "text_color_transparent": "#ffffff",
-        "count_text_color": "#000000",
-        "count_text_color_transparent": "#000000",
-        "count_text_bg": "#ececec",
-        "count_text_bg_transparent": "#ececec"
+        "count_text_color": "#200ea3",
+        "count_text_color_transparent": "#321cd4",
+        "count_text_bg": "#faf4f4",
+        "count_text_bg_transparent": "#faf4f4"
       }
     },
     "cart-drawer": {

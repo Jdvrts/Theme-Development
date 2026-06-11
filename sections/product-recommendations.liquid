@@ -84,7 +84,7 @@
 			{%- if heading != blank -%}
 				<h2>{{- heading -}}</h2>
 			{%- endif -%}
-
+{% comment %}
 			{%- if slider_enabled -%}
 				<div class="product-recommendations__buttons-wrapper">
 					<button
@@ -97,7 +97,8 @@
 						{%- render 'icons', icon: 'arrow-right' -%}
 					</button>
 				</div>
-			{%- endif -%}
+			{%- endif -%} 
+{% endcomment %}
 		</div>
 
 		<div class="js-product-recommendations-content">

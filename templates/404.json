@@ -17,7 +17,7 @@
         "heading": "Hoppla! Seite nicht gefunden",
         "text": "<p>Diese Seite scheint nicht verfügbar zu sein, aber keine Sorge. Schau dir unsere Kollektionen an und nutze unseren Rabattcode für 10%, um etwas Passendes zu finden.</p>",
         "button_label": "10% Rabattcode",
-        "button_url": "/https://fraulein-wunder.myshopify.com/discount/Fill-up-your-cart?utm_campaign=95478c&utm_source=discount_shareable_link",
+        "button_url": "https://fraulein-wunder.myshopify.com/discount/Fill-up-your-cart?utm_campaign=95478c&utm_source=discount_shareable_link",
         "button_style": "primary",
         "offset_top_desktop": 0,
         "offset_bottom_desktop": 0,

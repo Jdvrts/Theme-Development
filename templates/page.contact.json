@@ -67,22 +67,22 @@
         "location_1": {
           "type": "contact_info",
           "settings": {
-            "item_heading": "Address:",
-            "item_text": "<a href=\"https://www.google.com/maps/place/Fr%C3%A4ulein+Wunder/@53.5622178,9.9635319,17z/data=!4m6!3m5!1s0x47b18f425d30db53:0xa7ec9902674d2b9b!8m2!3d53.5622178!4d9.9635319!16s%2Fg%2F1tj56v7d\" target=\"_blank\" title=\"Google Maps Pin Drop\">Susannenstraße 13, 20357 Altona, Hamburg</a>"
+            "item_heading": "Addresse:",
+            "item_text": "<a href=\"https://www.google.com/maps/place/Fr%C3%A4ulein+Wunder/@53.5622178,9.9635319,17z/data=!4m6!3m5!1s0x47b18f425d30db53:0xa7ec9902674d2b9b!8m2!3d53.5622178!4d9.9635319!16s%2Fg%2F1tj56v7d\" target=\"_blank\" title=\"Google Maps Pin Drop\">Susannenstraße 13, 20357 Hamburg-Sternschanze</a>"
           }
         },
         "location_2": {
           "type": "contact_info",
           "settings": {
-            "item_heading": "Phone:",
+            "item_heading": "Telefon / Store",
             "item_text": "<a href=\"tel:(040) 36193329\" title=\"tel:(040) 36193329\">(040) 36193329</a>"
           }
         },
         "location_4": {
           "type": "contact_info",
           "settings": {
-            "item_heading": "Work schedule:",
-            "item_text": "Mn - Sa. 11:00-20:00"
+            "item_heading": "Öffnungszeiten",
+            "item_text": "Mo - Sa 11:00-20:00"
           }
         }
       },
@@ -95,7 +95,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "heading": "<strong>Store & Showroom</strong>",
-        "description": "<p>Inspiriert zu leben bedeutet, ein Leben zu führen, das den eigenen Werten entspricht, ein Leben, das Sinn macht, und ein Leben mit Sinn. </p>",
+        "description": "<p>Komm in unserem Flagship Store in der Hamburger Sternschanze vorbei, entdecke unsere Schmuckstücke und lass dich von ausgewählten Skandi-Brands und neuen Styles inspirieren.</p>",
         "container_width": "inherit",
         "offset_top_desktop": 25,
         "offset_bottom_desktop": 25,
@@ -112,15 +112,15 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "heading": "Zögern Sie nicht, uns zu kontaktieren",
-        "text": "<p>Holen Sie sich die Hilfe, die Sie brauchen – wann immer Sie sie brauchen. Kontaktieren Sie unser Team jetzt!</p>",
+        "heading": "Schreib uns!",
+        "text": "<p><br/>Du hast eine Frage oder brauchst Unterstützung? Unser Team hilft dir gerne weiter. Schreib uns!<br/><br/></p>",
         "terms_text": "Durch Klicken auf die Schaltfläche <em>„Anfrage senden“</em> bestätigen Sie, dass Sie unsere <strong>Datenschutz</strong> bezüglich der Speicherung der über dieses Formular übermittelten Daten gelesen haben und diesen zustimmen.",
         "name_placeholder": "Dein Name *",
-        "email_placeholder": "Dein Email *",
-        "phone_placeholder": "Dein Telefonnummer",
-        "message_placeholder": "Geben Sie Ihre Nachricht ein",
+        "email_placeholder": "Deine Email *",
+        "phone_placeholder": "Deine Telefonnummer",
+        "message_placeholder": "Deine Anliegen",
         "submit_label": "Anfrage senden",
-        "success_message": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns so schnell wie möglich bei Ihnen!",
+        "success_message": "Vielen Dank für deine Nachricht. Wir melden uns so schnell wie möglich bei dir!",
         "container_width": "inherit",
         "offset_top_desktop": 48,
         "offset_bottom_desktop": 0,
