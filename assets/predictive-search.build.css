@@ -170,6 +170,7 @@
   font-size: calc(var(--body-font-size) * 1.5);
   line-height: 1.33;
   color: var(--color-text-thirdly);
+  border-radius: 3px;
 }
 .predictive-search .predictive-search__tabs-button.is-active {
   color: var(--color-text-primary);
