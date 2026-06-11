@@ -113,7 +113,7 @@
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
         "heading": "Zögern Sie nicht, uns zu kontaktieren",
-        "text": "<p>Holen Sie sich die Hilfe, die Sie brauchen – wann immer Sie sie brauchen. Kontaktieren Sie unser Team jetzt!</p>",
+        "text": "<p><br/>Du hast eine Frage oder brauchst Unterstützung? Unser Team hilft dir gerne weiter. Schreib uns!<br/><br/></p>",
         "terms_text": "Durch Klicken auf die Schaltfläche <em>„Anfrage senden“</em> bestätigen Sie, dass Sie unsere <strong>Datenschutz</strong> bezüglich der Speicherung der über dieses Formular übermittelten Daten gelesen haben und diesen zustimmen.",
         "name_placeholder": "Dein Name *",
         "email_placeholder": "Dein Email *",
