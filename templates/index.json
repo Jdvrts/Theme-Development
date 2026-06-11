@@ -61,7 +61,7 @@
         "button_border_hover_2": "#ffffff",
         "container_width": "100%",
         "offset_top_desktop": 0,
-        "offset_bottom_desktop": 25,
+        "offset_bottom_desktop": 0,
         "offset_top_mobile": 0,
         "offset_bottom_mobile": 0
       }
