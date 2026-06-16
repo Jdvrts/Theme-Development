@@ -43,7 +43,7 @@
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
           "settings": {
-            "menu": "head-mega-menu-1",
+            "menu": "main-menu",
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
@@ -51,9 +51,9 @@
             "label_size": 10,
             "padding": 8,
             "background_color": "#ffffff",
-            "border_color": "#6954A6",
+            "border_color": "#6954a6",
             "icon_color": "#000000",
-            "icon_hover_color": "#6954A6"
+            "icon_hover_color": "#6954a6"
           },
           "blocks": {}
         }
