@@ -114,6 +114,7 @@
           "type": "grid-banner",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/Armkette_Perlen_Marie_model.png",
             "heading": "Benefits of Made-to-Measure",
             "link_label": "Read More",
             "link_url": "/",
@@ -139,7 +140,7 @@
       "settings": {
         "enable_color_scheme_inheritance": true,
         "color_scheme": "",
-        "filters_type": "sidebar",
+        "filters_type": "top-bar",
         "show_grid_selector": true,
         "mobile_grid": "2",
         "show_color_swatch_in_filters": true,
