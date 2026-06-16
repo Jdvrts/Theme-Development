@@ -42,6 +42,7 @@
       "blocks": {
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
+          "disabled": true,
           "settings": {
             "menu": "main-menu",
             "menu_label": "Menu",
