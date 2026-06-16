@@ -65,7 +65,7 @@
   }
 {% endstyle %}
 
-<mobile-bottom-nav-{{ ai_gen_id }} class="ai-mobile-nav-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+<mobile-bottom-nav-{{ ai_gen_id }} class="ai-mobile-nav-{{ ai_gen_id }}" data-menu-handle="{{ block.settings.menu }}" {{ block.shopify_attributes }}>
   <div class="ai-mobile-nav-container-{{ ai_gen_id }}">
     <button
       class="ai-mobile-nav-button-{{ ai_gen_id }}"
@@ -105,6 +105,7 @@
         super();
         this.menuButton = this.querySelector('[data-action="menu"]');
         this.searchButton = this.querySelector('[data-action="search"]');
+        this.menuHandle = this.getAttribute('data-menu-handle') || '{{ block.settings.menu }}';
       }
 
       connectedCallback() {
@@ -126,7 +127,36 @@
       }
 
       openMenu() {
-        const headerMenuButton = document.querySelector('header-drawer .header__icon--menu');
+        const handle = (this.menuHandle || '').trim();
+
+        if (handle) {
+          const trySelectors = [
+            `header [aria-controls*="${handle}"]`,
+            `header [data-menu*="${handle}"]`,
+            `header [data-menu-toggle*="${handle}"]`,
+            `header details[id*="${handle}"] summary`,
+            `[aria-controls*="${handle}"]`,
+            `[data-menu*="${handle}"]`,
+            `[data-menu-toggle*="${handle}"]`,
+            `details[id*="${handle}"] summary`,
+            `nav[id*="${handle}"]`,
+          ];
+
+          for (const sel of trySelectors) {
+            try {
+              const el = document.querySelector(sel);
+              if (el) {
+                el.click();
+                return;
+              }
+            } catch (e) {
+              /* ignore bad selectors */
+            }
+          }
+        }
+
+        // Fallback: prefer header-scoped toggles first, then other common patterns
+        const headerMenuButton = document.querySelector('header-drawer .header__icon--menu') || document.querySelector('header .header__icon--menu');
         if (headerMenuButton) {
           headerMenuButton.click();
           return;
