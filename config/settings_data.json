@@ -15,8 +15,8 @@
     "base_font_size": 130,
     "heading_font_size": 120,
     "main_color_scheme": "scheme-1",
-    "color_scroll_thumb": "#41276b",
-    "color_scroll_track": "#41276b",
+    "color_scroll_thumb": "#A68254",
+    "color_scroll_track": "#DFC39D",
     "button_font_family": "inter_n5",
     "button_font_size": 110,
     "button_font_uppercase": true,
@@ -46,7 +46,7 @@
     "product_card_button_background_opacity": 67,
     "article_default_image": "shopify://shop_images/kein_bild.jpg",
     "article_read_more_label": "Weiterlesen",
-    "quick_view_enable_buy_it_now": true,
+    "quick_view_enable_buy_it_now": false,
     "quick_view_image_fit": "quick-view__image-wrapper--cover",
     "quick_view_show_stock_message": false,
     "enable_search": true,
@@ -62,7 +62,7 @@
     "cart_reminder_cookie_time": "30",
     "cart_reminder_display_frequency": "one_time",
     "cart_reminder_text": "Warenkorb anzeigen",
-    "show_breadcrumbs": false,
+    "show_breadcrumbs": true,
     "show_collection_on_pdp": false,
     "sections": {
       "sticky-atc": {
