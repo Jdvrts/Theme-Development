@@ -31,13 +31,12 @@
         "wishlist_by_square_wishlist_header_63yEpN",
         "omnisend_email_marketing_sms_embedded_form_DGp4R8"
       ],
-      "disabled": true,
       "settings": {
         "container_width": "inherit",
-        "offset_top_desktop": 25,
-        "offset_bottom_desktop": 25,
-        "offset_top_mobile": 25,
-        "offset_bottom_mobile": 25
+        "offset_top_desktop": 0,
+        "offset_bottom_desktop": 0,
+        "offset_top_mobile": 0,
+        "offset_bottom_mobile": 0
       }
     }
   },
