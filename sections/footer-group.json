@@ -14,6 +14,10 @@
     "17810132549d165ce1": {
       "type": "apps",
       "blocks": {
+        "wishlist_by_square_wishlist_header_N7K4fd": {
+          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-header/88ec2beb-ce43-48ed-b791-0a6554082c2b",
+          "settings": {}
+        },
         "omnisend_email_marketing_sms_embedded_form_p9gxix": {
           "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
           "settings": {
@@ -22,6 +26,7 @@
         }
       },
       "block_order": [
+        "wishlist_by_square_wishlist_header_N7K4fd",
         "omnisend_email_marketing_sms_embedded_form_p9gxix"
       ],
       "settings": {
@@ -37,18 +42,19 @@
       "blocks": {
         "ai_gen_block_9d413de_wGC8cc": {
           "type": "ai_gen_block_9d413de",
+          "disabled": true,
           "settings": {
             "menu": "main-menu",
             "menu_label": "Menu",
             "search_label": "Search",
             "show_labels": true,
-            "icon_size": 20,
+            "icon_size": 24,
             "label_size": 10,
-            "padding": 12,
+            "padding": 8,
             "background_color": "#ffffff",
-            "border_color": "#a1a1a1",
+            "border_color": "#6954a6",
             "icon_color": "#000000",
-            "icon_hover_color": "#666666"
+            "icon_hover_color": "#6954a6"
           },
           "blocks": {}
         }
