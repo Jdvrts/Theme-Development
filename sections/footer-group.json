@@ -11,32 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "17810132549d165ce1": {
-      "type": "apps",
-      "blocks": {
-        "wishlist_by_square_wishlist_header_N7K4fd": {
-          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-header/88ec2beb-ce43-48ed-b791-0a6554082c2b",
-          "settings": {}
-        },
-        "omnisend_email_marketing_sms_embedded_form_p9gxix": {
-          "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
-          "settings": {
-            "form_id": "692f13625000977f50421f74"
-          }
-        }
-      },
-      "block_order": [
-        "wishlist_by_square_wishlist_header_N7K4fd",
-        "omnisend_email_marketing_sms_embedded_form_p9gxix"
-      ],
-      "settings": {
-        "container_width": "inherit",
-        "offset_top_desktop": 0,
-        "offset_bottom_desktop": 0,
-        "offset_top_mobile": 0,
-        "offset_bottom_mobile": 0
-      }
-    },
     "blocks_QWGNFd": {
       "type": "_blocks",
       "blocks": {
@@ -117,7 +91,6 @@
     }
   },
   "order": [
-    "17810132549d165ce1",
     "blocks_QWGNFd",
     "footer"
   ]

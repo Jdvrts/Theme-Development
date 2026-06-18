@@ -16,12 +16,10 @@
       "blocks": {
         "wishlist_by_square_wishlist_header_63yEpN": {
           "type": "shopify://apps/wishlist-by-square/blocks/wishlist-header/88ec2beb-ce43-48ed-b791-0a6554082c2b",
-          "disabled": true,
           "settings": {}
         },
         "omnisend_email_marketing_sms_embedded_form_DGp4R8": {
           "type": "shopify://apps/omnisend-email-marketing-sms/blocks/embedded-form/44704aa2-794f-4c5d-8c8e-039c841158e9",
-          "disabled": true,
           "settings": {
             "form_id": "692f13625000977f50421f74"
           }
