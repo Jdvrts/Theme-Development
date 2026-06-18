@@ -45,7 +45,7 @@
         "block_alignment_vertical": "center",
         "block_alignment_vertical_mob": "center",
         "section_background": "#e7e7e7",
-        "overlay": "rgba(110,60,20, 0.2)",
+        "overlay": "rgba(90,60,10, 0.2)",
         "text_color": "#faf4f4",
         "button_background_1": "#A68254",
         "button_color_1": "#faf4f4",
